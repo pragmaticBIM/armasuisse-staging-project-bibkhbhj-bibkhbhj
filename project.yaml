@@ -1,13 +1,15 @@
-name: New Elementplan Project
-slug: new-project
-client: client-key
-
+name: bibkhbhj
+slug: bibkhbhj-bibkhbhj
+client: armasuisse-staging
+project_number: bibkhbhj
 languages:
-  - de
-  - en
-
+- de
+- fr
+- it
+- en
 default_language: de
-
 description:
-  de: Neues Elementplan-Projekt — Metadaten beim Anlegen überschreiben
-  en: New Elementplan project — metadata replaced on project creation
+  de: bibkhbhj
+  en: bibkhbhj
+master_slug: master-standard
+master_version: v1.0.1
