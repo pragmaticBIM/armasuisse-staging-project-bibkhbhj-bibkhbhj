@@ -1,0 +1,22 @@
+id: armasuisse:domain/nachweismodell-heizung-kalte
+sort_order: 5
+name:
+  de: Nachweismodell Heizung-Kälte
+  fr: Maquette de vérification Chaud-Froid (Hydraulique)
+  it: Modello di verifica Riscaldamento-Raffrescamento (idraulico)
+  en: ''
+definition:
+  de: Das *Nachweismodell Heizung-Kälte* ist ein Teil des Nachweismodells Beschaffung. Es enthält die Informationsanforderungen, die im Rahmen der Angebotsverfahren vom anbietenden Unternehmen erfüllt werden
+    müssen. Ob das Nachweismodell als Eignung- oder Zuschlagskriterium eingesetzt wird, und welcher Erfüllungsgrad gefordert ist, ist den Ausschreibungsunterlagen zu entnehmen.
+  fr: Le *modèle de preuve chauffage-refroidissement* fait partie du modèle de preuve d'approvisionnement. Il contient les exigences d'information que l'entreprise soumissionnaire doit remplir dans le cadre
+    de la procédure d'appel d'offres. Si le modèle de preuve est utilisé comme critère d'admissibilité ou d'attribution, et quel degré de conformité est requis, doit être déterminé à partir des documents
+    de la procédure d'appel d'offres.
+  it: Il *modello di prova riscaldamento-refrigerazione* è parte del modello di prova approvvigionamento. Contiene i requisiti informativi che l'azienda offerente deve soddisfare nell'ambito della procedura
+    di gara. Se il modello di prova viene utilizzato come criterio di idoneità o di aggiudicazione, e quale grado di conformità è richiesto, va desunto dai documenti di gara.
+  en: ''
+file_name:
+  de: NWM_TGA_HK_{Unternehmen}
+  fr: NWM_TGA_HK__{Entreprise}
+  it: MODELLO PROVA_TGA_HK__{Impresa}
+  en: ''
+status: active

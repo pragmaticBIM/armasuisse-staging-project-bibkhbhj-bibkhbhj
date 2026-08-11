@@ -1,0 +1,255 @@
+id: armasuisse:element/gebaude-bauwerke-ref
+sort_order: 3
+status: active
+name:
+  de: Gebäude / Bauwerke
+  fr: Bâtiments / Ouvrages
+  it: Edifici/ Opere di costruzione
+  en: ''
+needed_in_domain:
+- armasuisse:domain/referenz-bauwerk
+definition:
+  de: 'Gebäude sind mit dem Boden fest verbundene Bauten. Bei Doppel-, Gruppen- und Reihenhäusern zählt jedes Gebäude in der Regel als selbstständig, wenn es einen eigenen Zugang von aussen hat und wenn
+    zwischen den Gebäuden eine senkrechte, vom Erdgeschoss bis zum Dach reichende, tragende Trennmauer besteht. In Abstimmung mit dem Projektleiter Bauherr darf von dieser Definition abgewichen werden.
+
+
+    **Modellierungshinweis:**
+
+    Die Aufteilung in Gebäude ist mit dem Projektleiter im Vorfeld abzuklären. Kriterien können sein:
+
+    - Kostengliederung / Teilobjekte
+
+    - Reduktion der Dateigrösse für besser Performance
+
+    - Etappierungen
+
+    - ...'
+  fr: "Les bâtiments sont des constructions solidement fixées au sol. Dans le cas de maisons jumelées, groupées ou mitoyennes, chaque bâtiment est généralement considéré comme indépendant s'il dispose de\
+    \ son propre accès depuis l'extérieur et s'il existe entre les bâtiments un mur de séparation vertical porteur allant du rez-de-chaussée au toit. En accord avec le chef de projet du maître d'ouvrage,\
+    \ il est possible de s'écarter de cette définition. \n\n**Note pour la modélisation.**\nLa répartition en bâtiments doit être clarifiée au préalable avec le chef de projet. Les critères peuvent être\
+    \ : \n- Répartition des coûts / sous-objets \n- Réduction de la taille du fichier pour de meilleures performances \n- Étapes \n- ..."
+  it: "Gli edifici sono strutture saldamente ancorate al suolo. \nNel caso di case abbinate, a gruppi e a schiera, ogni edificio è generalmente considerato indipendente se ha un proprio accesso dall'esterno\
+    \ e se esiste un muro divisorio verticale portante tra gli edifici che si estende dal piano terra al tetto. \nQuesta definizione può essere derogata in consultazione con il capoprogetto del committente.\
+    \  \n  \n**Indicazione per la modellazione:** \nLa suddivisione in edifici dovrà essere chiarita preventivamente con il capoprogetto. \nI criteri possono essere: \n- Ripartizione costi/sottooggetti\
+    \ \n- Riduzione delle dimensioni del file per prestazioni migliori \n- Fasi \n- ..."
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcBuilding
+entity_ifc4_3: ''
+picture_link: gebaude-bauwerke.jpg
+model_link: null
+applicability: entity_ifc4=IfcBuilding
+attributes:
+- name: DateOfDecommissioning
+  pset: Cust_Building
+  definition:
+    de: Datum der Ausserbetriebssetzung im Format TT.MM.JJJJ z.B. 24.10.2024
+    fr: Date de mise hors service au format TT.MM.JJJJ p. ex. 24.10.2024
+    it: Data di messa fuori servizio nel formato GG.MM.AAAA, ad es. 24.10.2024
+    en: ''
+  datatype: IfcDate
+  allowed_values: armasuisse:value/datum-regex
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows: null
+  is_applicability: false
+  status: active
+  sort_order: 9
+- name: EarthquakeStructuralClass
+  pset: Cust_Building
+  definition:
+    de: Angabe der Erdbeben-Bauwerksklasse. z.B. "BWK I"
+    fr: Indication de la classe de construction parasismique, p. ex. "CO I"
+    it: 'Indicazione della classe d’opera dal punto di vista sismico, ad es.: "CHP I"'
+    en: ''
+  datatype: IfcText
+  allowed_values: armasuisse:value/erdbeben-bauwerksklasse-sia261
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/qualitatssicherung-nutzlasten-tragwerkskonzept
+  - armasuisse:workflow/lia-gebaude
+  is_applicability: false
+  status: active
+  sort_order: 11
+- name: EnergyReferenceSurface
+  pset: Cust_Building
+  definition:
+    de: Energiebezugsfläche gemäss Norm SIA 380
+    fr: Surface de référence énergétique selon la norme SIA 380
+    it: Superficie di riferimento energetico secondo la norma SIA 380
+    en: ''
+  datatype: IfcAreaMeasure
+  unit: m²
+  allowed_values: null
+  link_uid: '{3B1872A2-B3C6-4DA6-A5AE-B03B68399E80}'
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '11'
+  - '21'
+  - '22'
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/szenarienentwicklung-stadtebauliche-machbarkeit
+  - armasuisse:workflow/szenarienentwicklung-areal-und-bauwerksversorgung
+  - armasuisse:workflow/darstellung-sicherheitsrelevanter-konzepte-und-bauteile
+  - armasuisse:workflow/etappierungskonzept
+  - armasuisse:workflow/bestandsaufnahme
+  - armasuisse:workflow/erstellung-varianten-im-modell-zur-entscheidungsfindung-armasuisse
+  - armasuisse:workflow/liefern-von-grundlagen-fur-lebenszykluskostenberechnungen-im-bauprojekt
+  - armasuisse:workflow/flachen-und-volumen-fur-bauwerkskennzahlen
+  - armasuisse:workflow/klarung-vertraglicher-schnittstellen
+  - armasuisse:workflow/awf-08-d-modellbasierte-informationen-auf-bauteilebene-3d-gebaudetechnik
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-3d-architektur
+  - armasuisse:workflow/lia-gebaude
+  - armasuisse:workflow/qualitatssicherung-energiebezugsflache
+  - armasuisse:workflow/bim2lcc-lebenszykluskosten
+  is_applicability: false
+  status: active
+  sort_order: 13
+- name: ProtectionZone
+  pset: Cust_Building
+  definition:
+    de: Schutzzonenbezeichnung gemäss armasuisse Immobilien, z.B. Schutzzone 1
+    fr: Désignation de la zone de protection selon armasuisse Immobilier, p. ex. zone de protection 1
+    it: Designazione della zona di protezione secondo armasuisse Immobili, ad es. zona di protezione 1
+    en: ''
+  datatype: IfcText
+  allowed_values: armasuisse:value/armasuisse-schutzzone
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '11'
+  - '21'
+  - '22'
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/darstellung-sicherheitszonen-in-modell
+  - armasuisse:workflow/lia-gebaude
+  is_applicability: false
+  status: active
+  sort_order: 15
+- name: SeatsActual
+  pset: Cust_Building
+  definition:
+    de: Anzahl der im Modell geplanten Sitzplätze (IST) [St], z.B. 28
+    fr: Nombre de places assises réelles planifiées dans le modèle (RÉEL) [Nbr], p. ex. 28
+    it: Numero di posti a sedere previsti (EFFETTIVI) [pz], ad es. 28
+    en: ''
+  datatype: IfcReal
+  unit: Stk
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/lia-gebaude
+  - armasuisse:workflow/planungskoordination
+  is_applicability: false
+  status: active
+  sort_order: 16
+- name: SleepingPlacesTarget
+  pset: Cust_Building
+  definition:
+    de: Anzahl der bestellten Schläfplätze (SOLL). z.B. 52
+    fr: Nombre de lits prévus commandés (THÉORIQUE). p. ex. 52
+    it: Numero di posti letto ordinati (NOMINALI), ad es. 52
+    en: ''
+  datatype: IfcReal
+  unit: Stk
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '11'
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '53'
+  - '52'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/lia-gebaude
+  - armasuisse:workflow/planungskoordination
+  is_applicability: false
+  status: active
+  sort_order: 18

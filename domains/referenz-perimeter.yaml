@@ -1,0 +1,21 @@
+id: armasuisse:domain/referenz-perimeter
+sort_order: 1
+name:
+  de: Referenz Perimeter
+  fr: Périmètre de référence
+  it: Perimetro di Riferimento
+  en: ''
+definition:
+  de: Im *Referenzmodell Perimeter* sind alle  zusammengeführten Parzellen, Modelleinfügepunkte und die Georeferenzierung enthalten. Es dient dazu, allen Beteiligten die gleiche Grundlage zur Verfügung
+    zu stellen.
+  fr: Le maquette *Périmètre de référence* inclus toutes les parcelles regroupées, les points d’insertion dans le modèle et le géoréférencement. Elle permet de mettre des bases identiques à la disposition
+    de toutes les parties prenantes.
+  it: Il modello *Perimetro di riferimento* comprende tutte le parcelle raggruppate, i punti di inserimento nel modello e la georeferenziazione. Consente di mettere a disposizione di tutte le parti interessate
+    delle basi dati identiche.
+  en: ''
+file_name:
+  de: '{Auftrags-Nr Bauherr}_{Bauwerk ID}_{Phase}_RefPer_{Freitext}'
+  fr: '{Numéro projet}_{Code bâtiment}_{Phase}_RefPer_{Libre}'
+  it: '{Numero di incarico del committente}_{Codice opera di costruzione}_{Fase}_RefPer_{Testo libero}'
+  en: ''
+status: active

@@ -1,0 +1,150 @@
+id: armasuisse:element/geschoss-stockwerk
+sort_order: 4
+status: active
+name:
+  de: Geschoss / Stockwerk
+  fr: Étage
+  it: Piano
+  en: ''
+needed_in_domain:
+- armasuisse:domain/architektur
+- armasuisse:domain/referenz-perimeter
+- armasuisse:domain/referenz-bauwerk
+- armasuisse:domain/einsatzplan-feuerwehr
+- armasuisse:domain/gebaudetechnik-elektro
+- armasuisse:domain/gebaudetechnik-hlk
+- armasuisse:domain/gebaudetechnik-sanitar
+- armasuisse:domain/gebaudetechnik-sonstiges
+definition:
+  de: 'Jede nutzbare Ebene ist ein eigenes Geschoss. Damit können:
+
+    - Die Modelle im BIM-Viewer besser navigiert werden.
+
+    - Auswertungen geschossweise gemacht werden.
+
+
+    **Modellierungshinweise:**
+
+    - Die Decke über einem Geschoss wird in das darüberliegende Geschoss gelegt.
+
+    - Wenn es notwendig ist die abgehängte Decke zu modellieren, so wird diese in das Geschoss gelegt in dem der Raum ist.
+
+    - Jeder modellierte Bauteil ist einem Geschoss zugeordnet.
+
+    - Geschossübergreifende Bauteile (wie z.B. Wände) werden geschossweise getrennt.'
+  fr: 'Chaque niveau utilisable est un étage à part entière. Ainsi, il est possible de :
+
+    - Mieux naviguer dans le BIM-Viewer avec les modèles.
+
+    - Faire des relevés/analyses par étage.
+
+
+    **Note pour la modélisation.**
+
+    - La dalle située au-dessus d''un étage est placée sur le niveau supérieur.
+
+    - S''il est nécessaire de modéliser un faux-plafond, celui-ci est affecté sur le niveau dans lequel se trouve la pièce.
+
+    - Chaque composant modélisé est affecté à un étage.
+
+    - Les composants répartis sur les étages, par exemple les murs, sont divisés étage par étage.'
+  it: "Ogni livello utile è un piano a sé stante. In questo modo è possibile: \n- Navigare meglio tra i modelli nel visualizzatore BIM; \n- Effettuare valutazioni per i piani.  \n\n**Indicazioni per la\
+    \ modellazione.**\n- Il soffitto sopra un piano è posto al piano superiore. \n- Se è necessario modellare il controsoffitto, questo viene collocato nel piano in cui si trova la stanza. \n- Ciascun componente\
+    \ modellato è assegnato a un piano. \n- I componenti trasversali ai piani (ad es. le pareti) sono separati piano per piano."
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcBuildingStorey
+entity_ifc4_3: ''
+picture_link: geschoss-stockwerk.jpg
+model_link: null
+applicability: entity_ifc4=IfcBuildingStorey
+attributes:
+- name: Name
+  pset: null
+  definition:
+    de: 'Eindeutiger Identifier des Geschosses gemäss Klassifikation Geschosse:
+
+      - Untergeschoss: U{Zahl 01-99}
+
+      - Erdgeschoss: 00
+
+      - Obergeschoss: 01-99
+
+      - Zwischengschoss: Z{Zahl 01-99}
+
+
+      z.B. "03"'
+    fr: "Identifiant unique de l’étage selon la classification des étages : \n-  Sous-sol : U{Nombre 01-99} \n- Rez-de-chaussée : 00 \n- Étage : 01-99 \n- Étage intermédiaire : Z{Nombre 01-99}  p. ex. \"\
+       03 \""
+    it: 'Identificativo univoco del piano secondo la corrispondente classificazione :
+
+      - Seminterrato: U{Numero 01-99}
+
+      - Pianterreno: 00
+
+      - Piano superiore: 01-99
+
+      - Piano intermedio: Z{Numero 01-99}  ad es. «03»'
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-2-2-z-d-1-2-d-1-u-d-1
+  link_uid: ''
+  regex:
+    de: ^(?:U\d{1,2}|Z\d{1,2}|\d{1,2})$
+    fr: ^(?:U\d{1,2}|Z\d{1,2}|\d{1,2})$
+    it: ^(?:U\d{1,2}|Z\d{1,2}|\d{1,2})$
+    en: ''
+  needed_in_phases:
+  - '11'
+  - '21'
+  - '22'
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/qualitatssicherung-energiebezugsflache
+  - armasuisse:workflow/qualitatssicherung-nutzlasten-tragwerkskonzept
+  - armasuisse:workflow/szenarienentwicklung-stadtebauliche-machbarkeit
+  - armasuisse:workflow/szenarienentwicklung-areal-und-bauwerksversorgung
+  - armasuisse:workflow/darstellung-sicherheitsrelevanter-konzepte-und-bauteile
+  - armasuisse:workflow/etappierungskonzept
+  - armasuisse:workflow/bestandsaufnahme
+  - armasuisse:workflow/darstellung-brandschutzkonzept-in-modell
+  - armasuisse:workflow/darstellung-sicherheitszonen-in-modell
+  - armasuisse:workflow/darstellung-sicherheitsklassifizierungen-der-fassade-nach-comsec-im-modell
+  - armasuisse:workflow/erstellung-varianten-im-modell-zur-entscheidungsfindung-armasuisse
+  - armasuisse:workflow/visualisierung-raumbeziehungen
+  - armasuisse:workflow/visualisierung-und-nachweis-kritischer-betriebsablaufe
+  - armasuisse:workflow/sperrzonen-modell-tragwerk
+  - armasuisse:workflow/liefern-von-grundlagen-fur-lebenszykluskostenberechnungen-im-bauprojekt
+  - armasuisse:workflow/flachen-und-volumen-fur-bauwerkskennzahlen
+  - armasuisse:workflow/klarung-vertraglicher-schnittstellen
+  - armasuisse:workflow/simulation-kritischer-bauablaufe-in-modell
+  - armasuisse:workflow/modellbasierte-bestellungsanderung
+  - armasuisse:workflow/angabe-planer-und-unternehmer-pro-bauteil
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-gebaudetechnik
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-3d-architektur
+  - armasuisse:workflow/awf-08-d-modellbasierte-informationen-auf-bauteilebene-3d-gebaudetechnik
+  - armasuisse:workflow/awf-04-a-issuemanagement
+  - armasuisse:workflow/planungskoordination
+  - armasuisse:workflow/bim2lcc-lebenszykluskosten
+  - armasuisse:workflow/flachenauswertung-nach-sia416-dn265
+  - armasuisse:workflow/visualisierung-sicherheitstechnik-im-modell
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  - armasuisse:workflow/ermitteln-von-geschossvolumen
+  - armasuisse:workflow/kennwert-geschossflache-ermitteln
+  - armasuisse:workflow/zuordnung-der-bauteile-nach-ebkp-3-stellig
+  - armasuisse:workflow/modellbasierte-informationen-auf-systemebene-gebaudetechnik
+  - armasuisse:workflow/qualitatssicherung-qs-bodenbelage
+  - armasuisse:workflow/soll-ist-vergleich-raumflachen
+  is_applicability: false
+  status: active
+  sort_order: 1

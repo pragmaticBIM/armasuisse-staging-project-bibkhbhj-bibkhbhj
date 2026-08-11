@@ -1,0 +1,28 @@
+id: armasuisse:value/fireentrytypeenum
+name:
+  de: FireEntryTypeEnum
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - MainAccess
+  - AdditionalAccess
+  - SprinklerCentralAccess
+  fr:
+  - MainAccess
+  - AdditionalAccess
+  - SprinklerCentralAccess
+  it:
+  - MainAccess
+  - AdditionalAccess
+  - SprinklerCentralAccess
+  en: []

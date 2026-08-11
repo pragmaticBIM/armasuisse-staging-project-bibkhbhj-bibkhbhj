@@ -1,0 +1,178 @@
+id: armasuisse:value/gtalink
+name:
+  de: GTALink
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - D01.03.001 Notlichtanlage
+  - D12.01.001 Personenaufzug
+  - D01.01.002a Statische USV Anlage < 5kW
+  - I05.01.006 Windkraftwerk
+  - D04.04.01 Gaslöschanlage (CO2, Inertgas, Sauerstoffreduktion, Halon)
+  - I05.07.004 Gleisanlagen
+  - D05.02.004 Gasbrenner
+  - D05.04.004 Wärmezähler
+  - D01.04.004 HS-Schaltanlage, Verteilung
+  - D08.02.001 Enthärtungsanlage/ Entsalzungsanlage
+  - D06.02.003 Kältemaschine / Kälteanlage
+  - D05.02.012a Wärmepumpe Elektromotor
+  - D08.02.001 Enthärtungsanlage/ Entsalzungsanlage
+  - D05.02.019 Heizung Versorgung
+  - D05.02.007 Holzkessel Schnitzel
+  - D05.02.020 Holzkessel Stückholz
+  - D07.02.0ff Lüftungsanlage Klima
+  - D01.01.001 Ersatzstromanlage (Netzersatzanlage)
+  - D02.01.001 Gebäudeleitsystem
+  - D08.03.001 Wassererwärmungsanlage, Warmwasserspeicher
+  - D03.01.001 Einbruchmeldeanlagen/ Wertschutzanlage
+  - D11.02.001 Druckluftanlage
+  - D05.02.006 Holzkessel Pellet
+  - D01.04.005 NS-Schaltanlage, Verteilung
+  - D01.04.003 Einspeisezähler
+  - D09.02.006 Ölabscheider Fettabscheider
+  - I-065 UV Anlage
+  - D08.02.004 Dosieranlage
+  - D03.03.001 Videoüberwachung sensitiv
+  - D02.01.003 Alarmmanagementsystem
+  - D05.04.001 Wärmeverteilung
+  - D05.02.017 Thermischer Sonnenkollektor
+  - D09.01.003 Hebe- und Pumpanlage (mit Schmutz- und Abwasserpumpe)
+  - D02.06.003 Domotik
+  - D08.02.008 Druckerhöhungsanlage
+  - D04.01.001 Brandmeldeanlage
+  - D06.30.001 Kältespeicher
+  - D05.04.003 Expansionsgefäss
+  - D01.01.003 Photovoltaikanlage
+  - I05.01.007 Wasserkraftwerk
+  - D03.02.001 Zutrittskontrollanlage (Bixi, etc.)
+  - I-036 Osmoseanlage
+  - D08.02.001 Enthärtungsanlage/ Entsalzungsanlage
+  - D01.11.007 Evakuationsanlage
+  - D01.04.006 Blindstromkompensationsanlage
+  - G05.07.008 Schleusen automatisch
+  - D12.06.006 Anpassrampen
+  - D01.02.001 Transformator
+  - D02.01.002 Energiemanagementsystem
+  - D05.04.002 Expansionsgefäss prüfpflichtig
+  - D10.01.0ff Gasanlage
+  - D05.02.002 Heizkessel mit Wasser <110°C
+  - I-009 Personenvereinzelungsanlage
+  fr:
+  - D01.03.001 Installation d’éclairage de secours
+  - D12.01.001 Ascenseurs
+  - D01.01.002a ASI
+  - I05.01.006 Éoliennes
+  - D04.04.01 Installation d’extinction au CO2
+  - I05.07.004 Voies ferrées
+  - D05.02.004 Prod.chaleur Mazout_Gaz
+  - D05.04.004 Dist.chaleur filtre flux mag.
+  - D01.04.004 Installation de distribution HT
+  - D08.02.001 Installation de désalinisation
+  - D06.02.003 Installations de refroidissement
+  - D05.02.012a Prod.chaleur pompes chaleur
+  - D08.02.001 Installation d’adoucissement
+  - D05.02.019 Alimentation/stockage de chaleur
+  - D05.02.007 Prod.chaleur copeaux
+  - D05.02.020 Prod.chaleur bûches
+  - I-034 Installations de ventilation
+  - D01.01.001 Installation d’électricité de secours
+  - D02.01.001 Système de contrôle du bâtiment domotique
+  - D08.03.001 Chauffe-eau
+  - D03.01.001 Installation de détection d’effraction
+  - D11.02.001 Air comprimé
+  - D05.02.006 Prod.chaleur pellets
+  - D01.04.005 Installation de distribution BT
+  - D01.04.003 Compteur d’alimentation
+  - D09.02.006 Séparateur d’huiles et de graisses
+  - I-065 Installations UV
+  - D08.02.004 Installation de dosage du chlore
+  - D03.03.001 Vidéosurveillance
+  - D02.01.003 Gestion des alarmes
+  - D05.04.001 Distribution de chaleur/chauffage
+  - D05.02.017 Prod.chaleur solaire
+  - D09.01.003 Installation de relevage des eaux usées
+  - D02.06.003 Domotique
+  - D08.02.008 Surpresseur
+  - D04.01.001 Installations de détection d’incendie
+  - D06.30.001 Accumulateurs de froid
+  - D05.04.003 Dist.chaleur expansion
+  - D01.01.003 Installation photovoltaïque
+  - I05.01.007 Centrales hydroélectriques
+  - D03.02.001 Contrôle d’accès élect.
+  - I-036 Osmoseur
+  - D08.02.001 Dist.chaleur désalinisation
+  - D01.11.007 Installation d’évacuation
+  - D01.04.006 Compensation de courant réactif
+  - G05.07.008 Fermetures
+  - D12.06.006 Rampes modulables
+  - D01.02.001 Transformateurs
+  - D02.01.002 Gestion de l’énergie
+  - D05.04.002 Dist.chaleur dégasage
+  - I-026 Installation de gaz du bâtiment
+  - D05.02.002 Production de chaleur/chauffage
+  - I-009 Système d’accès individuel
+  it:
+  - D01.03.001 Impianto di illuminazione di emergenza
+  - D12.01.001 Ascensori
+  - D01.01.002a ASI
+  - I05.01.006 Centrali eoliche
+  - D04.04.01 Impianto di spegnimento a CO2
+  - I05.07.004 Binari ferroviari
+  - D05.02.004 Produzione di calore Gasolio_Gas
+  - D05.04.004 Distribuzione di calore flusso mag.
+  - D01.04.004 Impianto di distribuzione AT
+  - D08.02.001 Impianto di desalinizzazione
+  - D06.02.003 Impianti di refrigerazione
+  - D05.02.012a Produzione di calore pompe di calore
+  - D08.02.001 Impianto di addolcimento
+  - D05.02.019 Alimentazione/accumulo di calore
+  - D05.02.007 Prod. di calore cippato
+  - D05.02.020 Prod. di calore legna in pezzi
+  - I-034 Impianti di ventilazione
+  - D01.01.001 Impianto elettrico di emergenza
+  - D02.01.001 Sistema di gestione domotica
+  - D08.03.001 Scaldacqua
+  - D03.01.001 Impianto di allarme antieffrazione
+  - D11.02.001 Aria compressa
+  - D05.02.006 Produzione di calore pellet
+  - D01.04.005 Impianto di distribuzione BT
+  - D01.04.003 Contatore di alimentazione
+  - D09.02.006 Separatore olio e grasso
+  - I-065 Impianto a raggi UV
+  - D08.02.004 Impianto dosaggio cloro
+  - D03.03.001 Videosorveglianza
+  - D02.01.003 Gestione allarmi
+  - D05.04.001 Distribuzione calore/riscaldamento
+  - D05.02.017 Produzione di calore solare
+  - D09.01.003 Pompe sollevamento acque di scarico
+  - D02.06.003 Domotica
+  - D08.02.008 Impianto di aumento della pressione
+  - D04.01.001 Impianto di rilevazione d’incendi
+  - D06.30.001 Accumulatore di freddo
+  - D05.04.003 Distr.calore espansione
+  - D01.01.003 Impianto fotovoltaico
+  - I05.01.007 Centrali idroelettriche
+  - D03.02.001 Controllo elett. degli accessi
+  - I-036 Impianto di osmosi
+  - D08.02.001 Distr.calore desalinizzazione
+  - D01.11.007 Impianto di evacuazione
+  - D01.04.006 Compensazione corrente reattiva
+  - G05.07.008 Chiusure
+  - D12.06.006 Rampe regolabili
+  - D01.02.001 Trasformatori
+  - D02.01.002 Gestione dell’energia
+  - D05.04.002 Distr.calore degassificazione
+  - I-026 Impianto gas dell’edificio
+  - D05.02.002 Produzione di calore/riscaldamento
+  - I-009 Sistema d'accesso individuale
+  en: null

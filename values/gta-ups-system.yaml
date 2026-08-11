@@ -1,0 +1,22 @@
+id: armasuisse:value/gta-ups-system
+name:
+  de: GTA_UPS_System
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - GTA_UPS_System
+  fr:
+  - GTA_UPS_System
+  it:
+  - GTA_UPS_System
+  en: []

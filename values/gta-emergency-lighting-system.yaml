@@ -1,0 +1,22 @@
+id: armasuisse:value/gta-emergency-lighting-system
+name:
+  de: GTA_emergency_lighting_system
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - GTA_emergency_lighting_system
+  fr:
+  - GTA_emergency_lighting_system
+  it:
+  - GTA_emergency_lighting_system
+  en: []

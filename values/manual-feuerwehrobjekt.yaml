@@ -1,0 +1,22 @@
+id: armasuisse:value/manual-feuerwehrobjekt
+name:
+  de: ObjectType_FeuerwehrObjekt
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - FEUERWEHROBJEKT
+  fr:
+  - FEUERWEHROBJEKT
+  it:
+  - FEUERWEHROBJEKT
+  en: []

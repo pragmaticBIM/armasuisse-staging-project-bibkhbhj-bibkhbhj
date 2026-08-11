@@ -1,0 +1,29 @@
+id: armasuisse:workflow/darstellung-sicherheitszonen-in-modell
+sort_order: 17
+code: AWF-02-8
+name:
+  de: Darstellung Sicherheitszonen in Modell
+  fr: Présentation des zones de sécurité dans le modèle
+  it: Rappresentazione del concetto di zone di sicurezza nel modello
+  en: ''
+description:
+  de: "**Ziel**\nDie Sicherheitszonen im Modell verbessert das gemeinsame Verständnis und die Kommunikation des Sicherheitskonzepts mit Nutzern und Betreibern.\n\n**Nutzen für den Auftraggeber**\n - Sicherheitskonzept\
+    \ ist für Nutzer und Betreiber räumlich nachvollziehbar\n- Abstimmung von Sicherheitsanforderungen auf Basis eines gemeinsamen Modells statt reiner Textdokumentation\n- Identifikation von Konflikten\
+    \ zwischen Nutzungsanforderungen und Sicherheitsvorgaben\n\n**Umsetzung im Projekt**\nRäume werden den Sicherheitszonen im Modell zugewiesen. Die projektspezifische Zonierung wird durch den zuständigen\
+    \ Sicherheitsplaner definiert.\n\n**Ergebnis**\n- IFC-Modell mit Sicherheitszonen"
+  fr: "**Objectif**\nLes zones de sécurité dans le modèle améliorent la compréhension commune et la communication du concept de sécurité avec les utilisateurs et les exploitants.\n\n\n**Avantage pour le\
+    \ mandant** \n- Le concept de sécurité est spatialement compréhensible pour les utilisateurs et les exploitants - Coordination des exigences de sécurité sur la base d'un modèle commun au lieu d'une\
+    \ documentation purement textuelle \n- Identification des conflits entre exigences d'utilisation et prescriptions de sécurité\n\n\n**Mise en œuvre dans le projet** \nLes locaux sont attribués aux zones\
+    \ de sécurité dans le modèle. La zonification spécifique au projet est définie par le planificateur de sécurité responsable.\n\n\n**Résultat**\n- Modèle IFC avec zones de sécurité"
+  it: "**Obiettivo**\nLe zone di sicurezza nel modello migliorano la comprensione comune e la comunicazione del concetto di sicurezza con utenti ed esercenti.\n\n\n**Vantaggio per il mandante**\n- Il concetto\
+    \ di sicurezza è comprensibile spazialmente per utenti ed esercenti - Coordinamento dei requisiti di sicurezza sulla base di un modello comune invece di documentazione puramente testuale \n- Identificazione\
+    \ di conflitti tra requisiti di utilizzo e prescrizioni di sicurezza\n\n\n**Attuazione nel progetto**\nI locali sono assegnati alle zone di sicurezza nel modello. La zonizzazione specifica del progetto\
+    \ è definita dal progettista di sicurezza responsabile.\n\n\n**Risultato** - Modello IFC con zone di sicurezza"
+  en: ''
+workflow_group: BIM 3d light,BIM 3d full,BIM 3d full 10Mio+
+parent_workflow: armasuisse:workflow/visualisierungen
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/architektur
+comment: ''

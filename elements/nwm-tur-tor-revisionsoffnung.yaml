@@ -1,0 +1,72 @@
+id: armasuisse:element/nwm-tur-tor-revisionsoffnung
+sort_order: 23
+status: active
+name:
+  de: Tür / Tor / Revisionsöffnung
+  fr: Porte / portail / ouverture de révision
+  it: Porta / portone / apertura di ispezione
+  en: ''
+needed_in_domain:
+- armasuisse:domain/nachweismodell-architektur
+definition:
+  de: 'Modellieren Sie alle Türen, Toren und Revisionsöffnungen.
+
+
+    **Modellierungshinweise:**
+
+    - Glasflächen in Türen sind mit einem transparenten Material zu modellieren.
+
+    - Halten Sie den Detailierungsgrad besser klein und arbeiten Sie mit einer Türliste für zusätzliche Anforderungen.
+
+    - Führen Sie ab Bauprojekt eine eindeutige Türnummer als Verknüpfung zur Türliste mit den weiteren Eigenschaften.
+
+    - Modellieren sie die Türen geschlossen. Der Bewegungsraum von Türen kann als eigenes Element ergänzt werden.'
+  fr: "Modélisez toutes les portes, portails et trappes d'inspection.\n\n**Note pour la modélisation.** \n- Les surfaces vitrées des portes doivent être modélisées avec un matériau transparent. \n- Il est\
+    \ préférable de maintenir un niveau de détail faible et de travailler avec une liste de portes pour les exigences supplémentaires. \n- Dès le projet de construction, conserver un numéro de porte unique\
+    \ comme lien vers la liste des portes avec les autres propriétés. \n- Modéliser les portes fermées. L'espace de mouvement des portes peut être ajouté en tant qu'élément séparé."
+  it: "Modellare tutte le porte, le aperture di ispezione e tutti i portoni.   \n\n**Indicazioni per la modellazione.**\n - Le superfici vetrate di porte devono essere modellate con materiale trasparente.\
+    \ \n- È meglio mantenere basso il livello di dettaglio e lavorare con un elenco di porte per eventuali requisiti aggiuntivi. \n- Dal progetto di costruzione in poi, mantenere un numero di porta univoco\
+    \ come collegamento all'elenco delle porte con le altre proprietà. \n- Modellare le porte chiuse. Lo spazio di movimento delle porte può essere integrato come elemento separato."
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcDoor
+entity_ifc4_3: ''
+picture_link: tur-tor-revisionsoffnung.jpg
+model_link: null
+applicability: entity_ifc4=IfcDoor
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: 'Der PredefinedType definiert die Art der Tür genauer.
+
+
+      - DOOR ... Tür
+
+      - GATE ... Tor
+
+      - TRAPDOOR ... Revisionsöffnung'
+    fr: "Le PredefinedType définit plus précisément le type de porte.  \n\n- DOOR ... Porte \n- GATE ... Portail \n- TRAPDOOR ... Ouverture de révision"
+    it: "Il «Tipo prefinito» definisce il tipo di porta in modo più preciso. \n\n- DOOR ... Porta \n- GATE ... Portone \n- TRAPDOOR ... Apertura di ispezione"
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/predefinedtype-door
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-3d-architektur
+  - armasuisse:workflow/bestandsaufnahme
+  - armasuisse:workflow/darstellung-brandschutzkonzept-in-modell
+  - armasuisse:workflow/planungskoordination
+  - armasuisse:workflow/lia-gebaude
+  is_applicability: false
+  status: active
+  sort_order: 3

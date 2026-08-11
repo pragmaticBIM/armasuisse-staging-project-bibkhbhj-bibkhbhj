@@ -1,0 +1,520 @@
+id: armasuisse:element/feuer-diamant
+sort_order: 12
+status: active
+name:
+  de: Feuer-Diamant
+  fr: Diamant de feu
+  it: Diamante di fuoco
+  en: Fire Diamond
+needed_in_domain:
+- armasuisse:domain/einsatzplan-feuerwehr
+definition:
+  de: 'Der Feuer-Diamant ist ein Symbol (IfcSpace) zur räumlichen Darstellung brandschutz- und feuerwehrrelevanter Anlagen und Anforderungen im Modell. Die Attribute dokumentieren die im Raum vorhandenen
+    oder erforderlichen brandschutztechnischen Einrichtungen.
+
+
+    **Modellierungshinweis:**
+
+    Der Feuer-Diamant wird als IfcSpace modelliert und in dem Bereich platziert wo die entsprechende Anforderung relevant ist.'
+  fr: 'Le diamant feu est un symbole (IfcSpace) pour la représentation spatiale des installations et exigences pertinentes pour la protection incendie et les pompiers dans le modèle. Les attributs documentent
+    les équipements de protection incendie présents ou requis dans le local.
+
+
+    **Note pour la modélisation :**
+
+    Le diamant feu est modélisé comme IfcSpace et placé dans la zone où l''exigence correspondante est pertinente.'
+  it: 'Il diamante fuoco è un simbolo (IfcSpace) per la rappresentazione spaziale di impianti e requisiti rilevanti per la protezione antincendio e i vigili del fuoco nel modello. Gli attributi documentano
+    le apparecchiature di protezione antincendio presenti o richieste nel locale.
+
+
+    **Indicazione per la modellazione:**
+
+    Il diamante fuoco è modellato come IfcSpace e posizionato nell''area in cui il requisito corrispondente è rilevante.'
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcSpace
+entity_ifc4_3: ''
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcSpace AND ObjectType=FIREDIAMOND
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: Der Wert PredefinedType muss auf USERDEFINED gesetzt werden, damit der individuelle Objekttyp über das Attribut ObjectType ausgelesen werden kann.
+    fr: La valeur PredefinedType doit être définie sur USERDEFINED afin que le type d'objet individuel puisse être lu via l'attribut ObjectType.
+    it: Il valore PredefinedType deve essere impostato su USERDEFINED affinché il tipo di oggetto individuale possa essere letto tramite l'attributo ObjectType.
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-userdefined
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: ObjectType
+  pset: null
+  definition:
+    de: Definiert, dass es sich bei dem modellierten Raum um einen Feuer-Diamant handelt.
+    fr: Définit que l'espace modélisé est un diamant feu.
+    it: Definisce che lo spazio modellato è un diamante fuoco.
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-firediamond
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: true
+  status: active
+  sort_order: 2
+- name: OccupancyNumberPeak
+  pset: Pset_SpaceOccupancyRequirements
+  definition:
+    de: Personenbelegung maximal.
+    fr: Occupation maximale de personnes.
+    it: Occupazione massima di persone.
+    en: ''
+  datatype: IfcInteger
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '62'
+  - '61'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 3
+- name: FlammableStorage
+  pset: Pset_SpaceFireSafetyRequirements
+  definition:
+    de: Lagerung brennbarer und gefährlicher Stoffe.
+    fr: Stockage de substances inflammables et dangereuses.
+    it: Stoccaggio di sostanze infiammabili e pericolose.
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '62'
+  - '61'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 4
+- name: CombustionUnit
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Feuerungsaggregat.
+    fr: Appareil de combustion.
+    it: Aggregato di combustione.
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '62'
+  - '61'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 5
+- name: SprinklerControlUnit
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Sprinkleranlage Zentrale (SPA-Z).
+    fr: Centrale d'installation sprinkler (SPA-Z).
+    it: Centrale impianto sprinkler (SPA-Z).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 6
+- name: FireExtinguishingSystem
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Löschanlage.
+    fr: Installation d'extinction.
+    it: Impianto di estinzione.
+    en: ''
+  datatype: IfcText
+  allowed_values: armasuisse:value/fire-extinguishing-system
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  - '41'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 7
+- name: FireHoseCabinet
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Wandhydranten (WHP).
+    fr: Robinets d'incendie muraux (WHP).
+    it: Idranti a muro (WHP).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 8
+- name: FireExtinguisher
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Handfeuerlöscher (HFL).
+    fr: Extincteur portatif (HFL).
+    it: Estintore portatile (HFL).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 9
+- name: FireAlarmControlUnit
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Brandmeldeanlage Zentrale (BMA-Z).
+    fr: Centrale d'alarme incendie (BMA-Z).
+    it: Centrale impianto rivelazione incendi (BMA-Z).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 10
+- name: FireAlarmControlPanel
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Brandmeldeanlage Bedienstelle (BMA-BS / Feuerwehr-Tableau).
+    fr: Poste de commande alarme incendie (BMA-BS / tableau des pompiers).
+    it: Posto di comando impianto rivelazione incendi (BMA-BS / quadro vigili del fuoco).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '62'
+  - '61'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 11
+- name: EvacuationControlUnit
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Evakuationsanlage Zentrale (EVAK-Z).
+    fr: Centrale d'installation d'évacuation (EVAK-Z).
+    it: Centrale impianto di evacuazione (EVAK-Z).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 12
+- name: EvacuationControlPanel
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Evakuationsanlage Bedienstelle (EVAK-BS).
+    fr: Poste de commande installation d'évacuation (EVAK-BS).
+    it: Posto di comando impianto di evacuazione (EVAK-BS).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '61'
+  - '62'
+  - '53'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 13
+- name: EmergencyLightingControlUnit
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Anforderung Raumfunktion Zentrale Notlichtanlage (NLA-Z).
+    fr: Exigence fonction du local centrale éclairage de secours (NLA-Z).
+    it: Requisito funzione del locale centrale illuminazione di emergenza (NLA-Z).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 14
+- name: SecurityLightingControlUnit
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Sicherheitsbeleuchtung Zentrale (SiBel-Z).
+    fr: Centrale éclairage de sécurité (SiBel-Z).
+    it: Centrale illuminazione di sicurezza (SiBel-Z).
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '62'
+  - '61'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 15
+- name: SafetyStaircase
+  pset: CHBB_SpaceFireSafetyRequirements
+  definition:
+    de: Sicherheitstreppenhaus.
+    fr: Cage d'escalier de sécurité.
+    it: Van scala di sicurezza.
+    en: ''
+  datatype: IfcBoolean
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 16

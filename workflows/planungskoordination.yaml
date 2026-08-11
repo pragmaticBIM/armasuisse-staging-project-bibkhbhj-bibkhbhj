@@ -1,0 +1,67 @@
+id: armasuisse:workflow/planungskoordination
+sort_order: 34
+code: AWF-05-2
+name:
+  de: Planungskoordination
+  fr: Coordination de la planification
+  it: Coordinazione della pianificazione
+  en: ''
+description:
+  de: "**Ziel**\nGrundlegende Koordinationsprobleme (zum Beispiel Kollisionsprüfung) zwischen den Fachmodellen werden erkannt und behoben, bevor sie auf der Baustelle zu Überraschungen und Mehrkosten führen.\n\
+    \ \n**Nutzen für den Auftraggeber**\n- Weniger Änderungskosten durch Erkennung von Koordinationsproblemen\n- Höhere Planungssicherheit für alle Beteiligten\n\n**Umsetzung im Projekt**\nAlle koordinationsrelevanten\
+    \ Bauteile sind im Modell modelliert und werden über eine Prüfsoftware koordiniert.\nDie Gesamtverantwortung für die Koordination liegt beim Architekten/Generalplaner/Gesamtleister. Die Durchführung\
+    \ erfolgt durch die Fachplaner. Die Qualitätssicherung der Koordination kann an den BIM-Koordinator delegiert werden.\n\n**Ergebnis**\n- Koordinierte Fachmodelle"
+  fr: '**Objectif**
+
+    Les problèmes de coordination fondamentaux (p. ex. contrôle des collisions) entre les modèles spécialisés sont détectés et résolus avant qu''ils ne provoquent des surprises et des surcoûts sur le chantier.
+
+
+    **Avantage pour le mandant**
+
+    - Moins de coûts de modification grâce à la détection des problèmes de coordination
+
+    - Sécurité de planification accrue pour toutes les parties prenantes
+
+
+    **Mise en œuvre dans le projet**
+
+    Toutes les parties d''ouvrage pertinentes pour la coordination sont modélisées et coordonnées via un logiciel de contrôle.
+
+    La responsabilité globale de la coordination incombe à l''architecte/planificateur général/entreprise totale. L''exécution est assurée par les planificateurs spécialisés. L''assurance qualité de la
+    coordination peut être déléguée au coordinateur BIM.
+
+
+    **Résultat**
+
+    - Modèles spécialisés coordonnés'
+  it: '**Obiettivo**
+
+    I problemi di coordinamento fondamentali (ad es. controllo delle collisioni) tra i modelli specialistici vengono individuati e risolti prima che possano causare sorprese e costi aggiuntivi in cantiere.
+
+
+    **Vantaggio per il mandante**
+
+    - Minori costi di modifica grazie all''individuazione dei problemi di coordinamento
+
+    - Maggiore sicurezza di pianificazione per tutti gli attori coinvolti
+
+
+    **Attuazione nel progetto**
+
+    Tutte le parti d''opera rilevanti per il coordinamento sono modellate e coordinate tramite un software di verifica.
+
+    La responsabilità complessiva del coordinamento spetta all''architetto/progettista generale/appaltatore generale. L''esecuzione è affidata ai progettisti specialistici. L''assicurazione qualità del
+    coordinamento può essere delegata al coordinatore BIM.
+
+
+    **Risultato**
+
+    - Modelli specialistici coordinati'
+  en: ''
+workflow_group: BIM 3d full 10Mio+, BIM 3d light, BIM 3d full
+parent_workflow: armasuisse:workflow/planungskoordination-und-fortschritt
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/architektur
+comment: ''

@@ -1,0 +1,85 @@
+id: armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+code: AWF-02-15
+name:
+  de: Visualisierung Einsatzplan Feuerwehr am Modell
+  fr: Visualisation du plan d'intervention des pompiers sur le modèle
+  it: Visualizzazione del piano d'intervento dei vigili del fuoco sul modello
+  en: ''
+description:
+  de: '**Ziel**
+
+    Die brandschutztechnischen Anforderungen sowie die Einsatzplanung der Feuerwehr werden direkt am digitalen Modell nachgewiesen.
+
+
+    **Nutzen für den Auftraggeber**
+
+    - Schnelle Visualisierung von brandschutzrelevanten Zonen, Rettungswegen und Feuerwehr-Anfahrten für Behörden und Prüfingenieure
+
+    - Frühzeitiges Erkennen von geometrischen und konzeptionellen Konflikten (z. B. zu geringe Durchfahrtshöhen für Feuerwehrfahrzeuge oder blockierte Rettungswege)
+
+    - Nachvollziehbare und rechtssichere Prüfgrundlage für Projektleitung, Brandschutzbehörden und Nutzer
+
+
+    **Umsetzung im Projekt**
+
+    Die brandschutz- und einsatzrelevanten Anforderungen werden durch den Brandschutzplaner definiert. Der Architekt oder der  Brandschutzplaner arbeitet diese Vorgaben in das Fachmodell ein. Die Prüfung
+    und Koordination erfolgen durch den Export als dezidiertes Teilmodell.
+
+
+    **Ergebnis**
+
+    - IFC-Modell mit dedizierten, modellierten Spezialelementen und Attributen für den Brandschutz.'
+  fr: '**Objectif**
+
+    Les exigences techniques de protection incendie ainsi que la planification d''intervention des pompiers sont démontrées directement sur le modèle numérique.
+
+
+    **Avantage pour le mandant**
+
+    - Visualisation rapide des zones pertinentes pour la protection incendie, des voies de secours et des accès pour les pompiers pour les autorités et les ingénieurs de contrôle
+
+    - Détection précoce des conflits géométriques et conceptuels (p. ex. hauteur de passage insuffisante pour les véhicules de pompiers ou voies de secours bloquées)
+
+    - Base de vérification traçable et juridiquement sûre pour la direction de projet, les autorités de protection incendie et les utilisateurs
+
+
+    **Mise en œuvre dans le projet**
+
+    Les exigences pertinentes pour la protection incendie et l''intervention sont définies par le planificateur en protection incendie. L''architecte ou le planificateur en protection incendie intègre ces
+    prescriptions dans le modèle métier. La vérification et la coordination s''effectuent par l''export en tant que sous-modèle dédié.
+
+
+    **Résultat**
+
+    - Modèle IFC avec éléments spéciaux et attributs dédiés modélisés pour la protection incendie.'
+  it: '**Obiettivo**
+
+    I requisiti tecnici di protezione antincendio nonché la pianificazione dell''intervento dei vigili del fuoco sono dimostrati direttamente sul modello digitale.
+
+
+    **Vantaggio per il mandante**
+
+    - Visualizzazione rapida di zone rilevanti per la protezione antincendio, vie di fuga e accessi per i vigili del fuoco per autorità e ingegneri di verifica
+
+    - Rilevamento precoce di conflitti geometrici e concettuali (ad es. altezza di passaggio insufficiente per i veicoli dei vigili del fuoco o vie di fuga bloccate)
+
+    - Base di verifica tracciabile e giuridicamente sicura per la direzione del progetto, le autorità di protezione antincendio e gli utilizzatori
+
+
+    **Attuazione nel progetto**
+
+    I requisiti rilevanti per la protezione antincendio e l''intervento sono definiti dal progettista di protezione antincendio. L''architetto o il progettista di protezione antincendio integra queste prescrizioni
+    nel modello specialistico. La verifica e il coordinamento avvengono tramite l''esportazione come sottomodello dedicato.
+
+
+    **Risultato**
+
+    - Modello IFC con elementi speciali e attributi dedicati modellati per la protezione antincendio.'
+  en: ''
+workflow_group: null
+parent_workflow: armasuisse:workflow/visualisierungen
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/einsatzplan-feuerwehr
+comment: ''

@@ -1,0 +1,22 @@
+id: armasuisse:value/gta-ups-system-l5kw
+name:
+  de: GTA_UPS_System_L5kW
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - GTA_UPS_System_L5kW
+  fr:
+  - GTA_UPS_System_L5kW
+  it:
+  - GTA_UPS_System_L5kW
+  en: []

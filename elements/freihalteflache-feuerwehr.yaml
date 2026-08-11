@@ -1,0 +1,101 @@
+id: armasuisse:element/freihalteflache-feuerwehr
+sort_order: 13
+status: active
+name:
+  de: Freihaltefläche Feuerwehr
+  fr: Surface à maintenir libre
+  it: Area da mantenere libera
+  en: Clearance area
+needed_in_domain:
+- armasuisse:domain/einsatzplan-feuerwehr
+definition:
+  de: 'Die freizuhaltender Flächen für Feuerwehr-Anfahrten und Zufahrten im Modell.
+
+
+    **Modellierungshinweis:**
+
+    Die Freihaltefläche wird mit Höhe 1m extrudiert modelliert.'
+  fr: 'La surface à maintenir libre est un symbole (IfcSpace) pour la représentation spatiale des surfaces à maintenir libres pour les accès et voies d''intervention des pompiers dans le modèle.
+
+
+    **Note pour la modélisation :**
+
+    La surface à maintenir libre est modélisée comme IfcSpace par extrusion avec une hauteur de 1 m et placée dans la zone où l''exigence correspondante est pertinente.'
+  it: 'L''area da mantenere libera è un simbolo (IfcSpace) per la rappresentazione spaziale delle aree da mantenere libere per gli accessi e le vie di intervento dei vigili del fuoco nel modello.
+
+
+    **Indicazione per la modellazione:**
+
+    L''area da mantenere libera è modellata come IfcSpace mediante estrusione con altezza di 1 m e posizionata nell''area in cui il requisito corrispondente è rilevante.'
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcBuildingElementProxy
+entity_ifc4_3: ''
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcBuildingElementProxy AND ObjectType=FIREBRIGADE-DeploymentArea
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: Der Wert PredefinedType muss auf USERDEFINED gesetzt werden, damit der individuelle Objekttyp über das Attribut ObjectType ausgelesen werden kann.
+    fr: La valeur PredefinedType doit être définie sur USERDEFINED afin que le type d'objet individuel puisse être lu via l'attribut ObjectType.
+    it: Il valore PredefinedType deve essere impostato su USERDEFINED affinché il tipo di oggetto individuale possa essere letto tramite l'attributo ObjectType.
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-userdefined
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '31'
+  - '32'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: ObjectType
+  pset: null
+  definition:
+    de: Definiert, dass es sich bei dem modellierten Raum um eine Freihaltefläche handelt.
+    fr: Définit que l'espace modélisé est une surface à maintenir libre.
+    it: Definisce che lo spazio modellato è un'area da mantenere libera.
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-freihalteflaeche
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '32'
+  - '31'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: true
+  status: active
+  sort_order: 2

@@ -1,0 +1,22 @@
+id: armasuisse:value/manual-freihalteflaeche
+name:
+  de: ObjectType_Freihalteflaeche
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - FIREBRIGADE-DeploymentArea
+  fr:
+  - FIREBRIGADE-DeploymentArea
+  it:
+  - FIREBRIGADE-DeploymentArea
+  en: []

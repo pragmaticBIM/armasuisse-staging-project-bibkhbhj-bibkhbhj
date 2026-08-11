@@ -1,0 +1,94 @@
+id: armasuisse:workflow/qualitatssicherung-nutzlasten-tragwerkskonzept
+sort_order: 8
+code: AWF-01-2
+name:
+  de: Qualitätssicherung Nutzlasten & Tragwerkskonzept
+  fr: Assurance qualité charges utiles et concept de structure porteuse
+  it: Garanzia della qualità carichi utili e concetto strutturale
+  en: ''
+description:
+  de: "**Ziel**\nDas Modell dient als Grundlage zur Plausibilisierung der vorgesehenen Nutzlasten und ermöglicht eine frühe Abstimmung zwischen Nutzungskonzept und Tragwerksplanung.\n\n**Nutzen**\n - Visualisierung\
+    \ der vorgesehenen Nutzlasten pro Raum\n- Abgleich zwischen Nutzung und Tragwerkskonzept\n- Identifikation von Abweichungen zur Nutzungsvereinbarung\n- Transparente Plausibilisierungsgrundlage für Projektleitung\
+    \ und Fachplanung\n\n**Umsetzung**\n1. Modelle gemäss Elementplan aufinformieren.\n2. Räume entsprechend ihrer\nNutzlastkategorie farblich darstellen\n3. Plausibilisierung im Kontext des Tragwerkskonzepts\
+    \ auf:\n- Vollständigkeit der Nutzlastangaben\n- Übereinstimmung mit der\nNutzungsvereinbarung\n\n**Ergebnis**\n- Übersicht der Nutzlasten im gesamten Projekt\n- Identifikation von Räumen mit abweichenden\
+    \ oder fehlenden Angaben\n- Grundlage für Abstimmung zwischen Projektleitung, Nutzung und Tragwerksplanung"
+  fr: '**Objectif**
+
+    Le modèle sert de base à la plausibilisation des charges utiles prévues et permet un accord précoce entre le concept d''utilisation et la planification de la structure porteuse.
+
+
+    **Avantage**
+
+    - Visualisation des charges utiles prévues par local
+
+    - Comparaison entre utilisation et concept de structure porteuse
+
+    - Identification des écarts par rapport à la convention d''utilisation
+
+    - Base de plausibilisation transparente pour la direction de projet et la planification spécialisée
+
+
+    **Mise en œuvre**
+
+    1. Mettre à jour les modèles selon l''Elementplan.
+
+    2. Représenter les locaux en couleur selon leur catégorie de charge utile.
+
+    3. Plausibilisation dans le contexte du concept de structure porteuse sur :
+
+    - Exhaustivité des indications de charges utiles
+
+    - Conformité avec la convention d''utilisation
+
+
+    **Résultat**
+
+    - Vue d''ensemble des charges utiles dans l''ensemble du projet
+
+    - Identification des locaux avec indications divergentes ou manquantes
+
+    - Base pour l''accord entre direction de projet, utilisation et planification de la structure porteuse'
+  it: '**Obiettivo**
+
+    Il modello serve come base per la plausibilizzazione dei carichi utili previsti e consente un coordinamento precoce tra il concetto di utilizzo e la pianificazione strutturale.
+
+
+    **Vantaggio**
+
+    - Visualizzazione dei carichi utili previsti per locale
+
+    - Confronto tra utilizzo e concetto strutturale
+
+    - Identificazione delle deviazioni rispetto all''accordo di utilizzo
+
+    - Base di plausibilizzazione trasparente per la direzione del progetto e la pianificazione specialistica
+
+
+    **Attuazione**
+
+    1. Aggiornare i modelli secondo l''Elementplan.
+
+    2. Rappresentare i locali a colori secondo la rispettiva categoria di carico utile.
+
+    3. Plausibilizzazione nel contesto del concetto strutturale su:
+
+    - Completezza delle indicazioni sui carichi utili
+
+    - Conformità con l''accordo di utilizzo
+
+
+    **Risultato**
+
+    - Panoramica dei carichi utili nell''intero progetto
+
+    - Identificazione dei locali con indicazioni divergenti o mancanti
+
+    - Base per il coordinamento tra direzione del progetto, utilizzo e pianificazione strutturale'
+  en: ''
+workflow_group: BIM 3d full,BIM 3d full 10Mio+
+parent_workflow: armasuisse:workflow/raumflachen-und-volumina
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/architektur
+comment: ''

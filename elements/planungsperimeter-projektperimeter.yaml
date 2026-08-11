@@ -1,0 +1,102 @@
+id: armasuisse:element/planungsperimeter-projektperimeter
+sort_order: 2
+status: active
+name:
+  de: Planungsperimeter / Projektperimeter
+  fr: Périmètre de planification / Périmètre du projet
+  it: Perimetro di pianificazione / perimetro di progetto
+  en: ''
+needed_in_domain:
+- armasuisse:domain/architektur
+- armasuisse:domain/einsatzplan-feuerwehr
+- armasuisse:domain/gebaudetechnik-elektro
+- armasuisse:domain/gebaudetechnik-hlk
+- armasuisse:domain/gebaudetechnik-sanitar
+- armasuisse:domain/gebaudetechnik-sonstiges
+definition:
+  de: Da das baurechtliche Grundstück nicht zwangsläufig deckungsgleich mit dem Planungsperimeter ist, können mehrere Parzellen gemäss Katasterplan zu einer IfcSite zusammengefasst werden.
+  fr: Comme le terrain relevant du droit de la construction ne coïncide pas nécessairement avec le périmètre de planification, plusieurs parcelles peuvent être regroupées en un seul IfcSite conformément
+    au plan cadastral.
+  it: Poiché il terreno secondo il diritto di superficie non coincide necessariamente con il perimetro di pianificazione, è possibile riunire in un IfcSite diverse particelle secondo il piano di catasto.
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcSite
+entity_ifc4_3: ''
+picture_link: planungsperimeter-projektperimeter.png
+model_link: null
+applicability: entity_ifc4=IfcSite
+attributes:
+- name: Name
+  pset: null
+  definition:
+    de: Eindeutiger Identifikator des Grundstücks; BWE (Bez) gemäss SAP. z.B "Aussenstelle ALC Thun"
+    fr: Identifiant unique du bien-fonds ; UE (dés.) selon SAP, p. ex. "Site externe CLA Thoune"
+    it: Identificativo univoco del terreno, designazione dell’unità di gestione secondo SAP. Ad es. "Sede esterna CLEs Thun"
+    en: ''
+  datatype: null
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '11'
+  - '21'
+  - '22'
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/qualitatssicherung-energiebezugsflache
+  - armasuisse:workflow/qualitatssicherung-nutzlasten-tragwerkskonzept
+  - armasuisse:workflow/szenarienentwicklung-stadtebauliche-machbarkeit
+  - armasuisse:workflow/szenarienentwicklung-areal-und-bauwerksversorgung
+  - armasuisse:workflow/darstellung-sicherheitsrelevanter-konzepte-und-bauteile
+  - armasuisse:workflow/etappierungskonzept
+  - armasuisse:workflow/bestandsaufnahme
+  - armasuisse:workflow/darstellung-brandschutzkonzept-in-modell
+  - armasuisse:workflow/darstellung-sicherheitszonen-in-modell
+  - armasuisse:workflow/darstellung-sicherheitsklassifizierungen-der-fassade-nach-comsec-im-modell
+  - armasuisse:workflow/erstellung-varianten-im-modell-zur-entscheidungsfindung-armasuisse
+  - armasuisse:workflow/visualisierung-raumbeziehungen
+  - armasuisse:workflow/visualisierung-und-nachweis-kritischer-betriebsablaufe
+  - armasuisse:workflow/sperrzonen-modell-tragwerk
+  - armasuisse:workflow/liefern-von-grundlagen-fur-lebenszykluskostenberechnungen-im-bauprojekt
+  - armasuisse:workflow/flachen-und-volumen-fur-bauwerkskennzahlen
+  - armasuisse:workflow/klarung-vertraglicher-schnittstellen
+  - armasuisse:workflow/simulation-kritischer-bauablaufe-in-modell
+  - armasuisse:workflow/modellbasierte-bestellungsanderung
+  - armasuisse:workflow/angabe-planer-und-unternehmer-pro-bauteil
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-gebaudetechnik
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-3d-architektur
+  - armasuisse:workflow/awf-08-d-modellbasierte-informationen-auf-bauteilebene-3d-gebaudetechnik
+  - armasuisse:workflow/awf-04-a-issuemanagement
+  - armasuisse:workflow/planungskoordination
+  - armasuisse:workflow/bim2lcc-lebenszykluskosten
+  - armasuisse:workflow/zuordnung-der-bauteile-nach-ebkp-3-stellig
+  - armasuisse:workflow/modellbasierte-informationen-auf-systemebene-gebaudetechnik
+  - armasuisse:workflow/lia-grundstuck
+  - armasuisse:workflow/lia-ngf-erfassungsliste
+  - armasuisse:workflow/ermitteln-von-geschossvolumen
+  - armasuisse:workflow/flachenauswertung-nach-sia416-dn265
+  - armasuisse:workflow/kennwert-geschossflache-ermitteln
+  - armasuisse:workflow/lia-gebaude
+  - armasuisse:workflow/lia-areal
+  - armasuisse:workflow/ubernahme-von-modelldaten-in-gis-fur-werkleitungen
+  - armasuisse:workflow/visualisierung-sicherheitstechnik-im-modell
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  - armasuisse:workflow/qualitatssicherung-qs-bodenbelage
+  - armasuisse:workflow/soll-ist-vergleich-raumflachen
+  is_applicability: false
+  status: active
+  sort_order: 1

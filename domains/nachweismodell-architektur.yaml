@@ -1,0 +1,23 @@
+id: armasuisse:domain/nachweismodell-architektur
+sort_order: 3
+name:
+  de: Nachweismodell  Architektur
+  fr: Maquette de vérification Architecture
+  it: Modello di verifica Architettura
+  en: ''
+definition:
+  de: Das *Nachweismodell Architektur* ist ein Teil des Nachweismodells Beschaffung. Es enthält die Informationsanforderungen, die im Rahmen der Angebotsverfahren vom anbietenden Unternehmen als Eignungsnachweis
+    zu 100% erfüllt werden müssen.
+  fr: Les cas d'usages de la maquette de vérification contient les exigences d'information pour les principales maquettes d'architecture et des techniques du bâtiment (électricité, chauffage/froid, ventilation
+    et sanitaire), qui doivent être remplies à 100 % par les gestionnaires BIM et les agents soumissionnaires dans le cadre du processus d'appel d'offres. comme preuve d'aptitude. Les exigences sont attribuées
+    à la phase d’étude de faisabilité pour sélection.
+  it: I casi d'utilizzo del modello di verifica contengono i requisiti informativi per i principali modelli architettonici e dei servizi dell'edificio (elettrici, di riscaldamento/raffreddamento, di ventilazione
+    e sanitari), che devono essere completati al 100% dai gestori BIM e dagli agenti di gara come parte del processo di appalto come prova di idoneità. I requisiti vengono assegnati alla fase di studio
+    di fattibilità per la selezione.
+  en: ''
+file_name:
+  de: NWM_ARC_{Unternehmen}
+  fr: NWM_ARC_{Entreprise}
+  it: MODELLO PROVA_ARC_{Impresa}
+  en: ''
+status: active

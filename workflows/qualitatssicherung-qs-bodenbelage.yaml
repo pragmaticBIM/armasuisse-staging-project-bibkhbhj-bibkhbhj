@@ -1,0 +1,63 @@
+id: armasuisse:workflow/qualitatssicherung-qs-bodenbelage
+code: AWF-01-04
+name:
+  de: Qualitätssicherung Bodenbeläge
+  fr: Assurance qualité revêtements de sol
+  it: Garanzia della qualità rivestimenti dei pavimenti
+  en: ''
+description:
+  de: "**Ziel**\nDie im Raum- und Oberflächenbuch definierten Bodenbeläge können im Modell lückenlos nachvollzogen,  ausgewertet und auf Korrektheit geprüft werden. \n\n**Nutzen**\n-Fehlerfreie Mengenermittlung:\
+    \ Automatisierte und exakte Massen- und Flächenauszüge für die Ausschreibung (Devisierung) reduzieren Nachtragsrisiken erheblich.\n- Visuelle QS-Kontrolle: Fehlende, unvollständige oder für die Nutzung\
+    \ falsch zugewiesene Bodenbeläge fallen bei der Prüfung im Modell-Checker sofort visuell auf.\n\n**Umsetzung**\nPflegen des Bodenbelagsmaterials im Raum. Bei Räumen mit Belagswechsel, werden beide Beläge\
+    \ in das Property geschrieben und zusätzlich ein Belagselement für die geometrische Verortung modelliert.\n\n**Ergebnis**\nEin IFC-Modell mit Innen- und Aussenräumen und attribuierten Bodenbeläge gemäss\
+    \ definierten Wertebereichen."
+  fr: '**Objectif**
+
+    Les revêtements de sol définis dans le livre des locaux et des surfaces peuvent être retracés de manière exhaustive dans le modèle, évalués et vérifiés quant à leur exactitude.
+
+
+    **Avantage**
+
+    - Détermination des quantités sans erreur : Les extractions automatisées et exactes de masses et de surfaces pour l''appel d''offres (devis) réduisent considérablement les risques de suppléments.
+
+    - Contrôle visuel AQ : Les revêtements de sol manquants, incomplets ou affectés à une utilisation incorrecte sont immédiatement visibles lors de la vérification dans le Modell-Checker.
+
+
+    **Mise en œuvre**
+
+    Gestion du matériau de revêtement de sol dans le local. Pour les locaux avec changement de revêtement, les deux revêtements sont inscrits dans la propriété et un élément de revêtement est en outre modélisé
+    pour le positionnement géométrique.
+
+
+    **Résultat**
+
+    Un modèle IFC avec locaux intérieurs et extérieurs et revêtements de sol attribués selon les plages de valeurs définies.'
+  it: '**Obiettivo**
+
+    I rivestimenti dei pavimenti definiti nel libro dei locali e delle superfici possono essere ricostruiti in modo completo nel modello, valutati e verificati per quanto riguarda la correttezza.
+
+
+    **Vantaggio**
+
+    - Determinazione delle quantità senza errori : Estrazioni automatizzate ed esatte di masse e superfici per la gara d''appalto (computo metrico) riducono notevolmente i rischi di supplementi.
+
+    - Controllo visivo QA : I rivestimenti dei pavimenti mancanti, incompleti o assegnati in modo errato all''utilizzo risaltano immediatamente in modo visivo durante la verifica nel Modell-Checker.
+
+
+    **Attuazione**
+
+    Gestione del materiale di rivestimento del pavimento nel locale. Per i locali con cambio di rivestimento, entrambi i rivestimenti vengono scritti nella proprietà e viene inoltre modellato un elemento
+    di rivestimento per il posizionamento geometrico.
+
+
+    **Risultato**
+
+    Un modello IFC con locali interni ed esterni e rivestimenti dei pavimenti attribuiti secondo gli intervalli di valori definiti.'
+  en: ''
+workflow_group: null
+parent_workflow: armasuisse:workflow/raumflachen-und-volumina
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/architektur
+comment: ''

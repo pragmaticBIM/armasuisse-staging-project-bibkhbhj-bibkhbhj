@@ -1,0 +1,97 @@
+id: armasuisse:element/sammelplatz
+sort_order: 14
+status: active
+name:
+  de: Sammelplatz
+  fr: Point de rassemblement
+  it: Punto di raccolta
+  en: Assembly point
+needed_in_domain:
+- armasuisse:domain/einsatzplan-feuerwehr
+definition:
+  de: 'Darstellung von Sammel- und Rendezvous-Punkten im Modell Einsatzplan Feuerwehr.
+
+
+    **Modellierungshinweis:**
+
+    Der Sammelplatz wird als IfcSpace mit Höhe 1m extrudiert modelliert.'
+  fr: 'Le point de rassemblement est un symbole (IfcSpace) pour la représentation spatiale des points de rassemblement et de rendez-vous dans le plan d''intervention des pompiers dans le modèle.
+
+
+    **Note pour la modélisation :**
+
+    Le point de rassemblement est modélisé comme IfcSpace par extrusion avec une hauteur de 1 m.'
+  it: 'Il punto di raccolta è un simbolo (IfcSpace) per la rappresentazione spaziale dei punti di raccolta e di incontro nel piano d''intervento dei vigili del fuoco nel modello.
+
+
+    **Indicazione per la modellazione:**
+
+    Il punto di raccolta è modellato come IfcSpace mediante estrusione con altezza di 1 m.'
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcSpace
+entity_ifc4_3: ''
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcSpace AND ObjectType=SAMMELPLATZ
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: Der Wert PredefinedType muss auf USERDEFINED gesetzt werden, damit der individuelle Objekttyp über das Attribut ObjectType ausgelesen werden kann.
+    fr: La valeur PredefinedType doit être définie sur USERDEFINED afin que le type d'objet individuel puisse être lu via l'attribut ObjectType.
+    it: Il valore PredefinedType deve essere impostato su USERDEFINED affinché il tipo di oggetto individuale possa essere letto tramite l'attributo ObjectType.
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-userdefined
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: ObjectType
+  pset: null
+  definition:
+    de: Definiert, dass es sich bei dem modellierten Raum um einen Sammelplatz handelt.
+    fr: Définit que l'espace modélisé est un point de rassemblement.
+    it: Definisce che lo spazio modellato è un punto di raccolta.
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-sammelplatz
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: true
+  status: active
+  sort_order: 2

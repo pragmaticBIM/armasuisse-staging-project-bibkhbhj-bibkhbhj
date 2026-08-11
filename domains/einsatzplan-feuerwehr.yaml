@@ -1,0 +1,25 @@
+id: armasuisse:domain/einsatzplan-feuerwehr
+name:
+  de: Einsatzplan Feuerwehr
+  fr: Plan d'intervention des pompiers
+  it: Piano di intervento dei vigili del fuoco
+  en: ''
+definition:
+  de: "Modell um den Einsatzplan der Feuerwehr zu prüfen.\n\n- **Auftrags-Nr Bauherr** gemäss armasuisse Immobilien\n- **Gebäude ID** gemäss armasuisse Immobilien\n- **Projektphase**:\n    - 00: Bestandsaufnahme\n\
+    \    - 11: Bedürfnisformulierung\n    - 21: Projektdefinition, Machbarkeit\n    - 22: Auswahlverfahren\n    - 31: Vorprojekt\n    - 32: Bauprojekt\n    - 33: Bewilligungsverfahren, Auflageprojekt\n\
+    \    - 41: Ausschreibung\n    - 51: Ausführungsprojekt\n    - 52: Ausführung\n    - 53: Inbetriebnahme\n    - 61: Betrieb\n    - 62: Erhaltung\n- **Fachdisziplin:** FIRE"
+  fr: "Modèle pour vérifier le plan d'intervention des pompiers.\n\n- **Numéro de commande du maître d'ouvrage** selon armasuisse Immobilien\n- **ID du bâtiment** selon armasuisse Immobilien\n- **Phase\
+    \ du projet** :\n    - 00 : Inventaire\n    - 11 : Formulation des besoins\n    - 21 : Définition du projet, faisabilité\n    - 22 : Procédure de sélection\n    - 31 : Avant-projet\n    - 32 : Projet\
+    \ de construction\n    - 33 : Procédure d'autorisation, projet de prescription\n    - 41 : Appel d'offres\n    - 51 : Projet d'exécution\n    - 52 : Exécution\n    - 53 : Mise en service\n    - 61 :\
+    \ Exploitation\n    - 62 : Entretien\n- **Discipline technique :** FIRE"
+  it: "Modello per verificare il piano di intervento dei vigili del fuoco.\n\n- **Numero ordine committente** secondo armasuisse Immobilien\n- **ID edificio** secondo armasuisse Immobilien\n- **Fase del\
+    \ progetto** :\n    - 00 : Rilevamento dello stato attuale\n    - 11 : Formulazione dei bisogni\n    - 21 : Definizione del progetto, fattibilità\n    - 22 : Procedura di selezione\n    - 31 : Preliminare\n\
+    \    - 32 : Progetto costruttivo\n    - 33 : Procedura di autorizzazione, progetto di prescrizione\n    - 41 : Gara d'appalto\n    - 51 : Progetto esecutivo\n    - 52 : Esecuzione\n    - 53 : Messa\
+    \ in servizio\n    - 61 : Gestione\n    - 62 : Manutenzione\n- **Disciplina tecnica :** FIRE"
+  en: ''
+file_name:
+  de: '{Auftrags-Nr Bauherr}_{Bauwerk ID}_{Phase}_FIRE_{Freitext}'
+  fr: ''
+  it: ''
+  en: ''
+status: active

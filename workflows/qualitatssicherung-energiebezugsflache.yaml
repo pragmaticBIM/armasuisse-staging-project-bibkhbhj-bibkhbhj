@@ -1,0 +1,77 @@
+id: armasuisse:workflow/qualitatssicherung-energiebezugsflache
+sort_order: 7
+code: AWF-01-1
+name:
+  de: Qualitätssicherung Energiebezugsfläche
+  fr: Assurance qualité surface de référence énergétique
+  it: Garanzia della qualità superficie di riferimento energetica
+  en: ''
+description:
+  de: "**Ziel**\nDie vom Fachplaner ermittelte Energiebezugsfläche kann im Modell nachvollzogen und plausibilisiert werden. Grundlage dafür ist eine einheitliche Raumzuordnung, die projektübergreifend transparent\
+    \ macht, welche Räume als EBF gelten — anstatt dass jedes Gewerk eine eigene Zuordnung vornimmt.\n\n**Nutzen**\n- Einheitliche EBF-Basis über alle Gewerke reduziert Koordinationsaufwand erheblich\n\
+    - Plausibilitätsprüfung der vom Fachplaner ermittelten Energiebezugsfläche wird möglich\n- Widersprüche zwischen Planung und Energieausweis werden frühzeitig erkannt\n\n**Umsetzung**\n Zuweisung durch\
+    \ Architekt in Zusammenarbeit mit Fachplaner\nEin beauftragter Fachplaner (z.B. Energieplaner) definiert, welche Räume zur Energiebezugsfläche gehören, und gibt diese Daten/Skizze dem Architekten weiter.\
+    \ Die Sonderausmassregeln nach SIA 380 werden in diesem Workflow nicht berücksichtigt!\n\n\n **Ergebnis**\nEin IFC-Modell mit eindeutig klassifizierten Energiebezugsflächen steht zur Verfügung und bildet\
+    \ die gemeinsame Berechnungsgrundlage für alle Gewerke."
+  fr: '**Objectif**
+
+    La surface de référence énergétique (EBF) déterminée par le planificateur spécialisé peut être retracée et plausibilisée dans le modèle. La base en est une attribution uniforme des locaux qui rend transparent,
+    sur tous les projets, quels locaux sont considérés comme EBF — au lieu que chaque corps de métier effectue sa propre attribution.
+
+
+    **Avantage**
+
+    - Une base EBF uniforme sur tous les corps de métier réduit considérablement l''effort de coordination
+
+    - La vérification de plausibilité de la surface de référence énergétique déterminée par le planificateur spécialisé devient possible
+
+    - Les contradictions entre la planification et le certificat énergétique sont identifiées à un stade précoce
+
+
+    **Mise en œuvre**
+
+    Attribution par l''architecte en collaboration avec le planificateur spécialisé.
+
+    Un planificateur spécialisé mandaté (p. ex. planificateur énergétique) définit quels locaux appartiennent à la surface de référence énergétique et transmet ces données/esquisse à l''architecte.
+
+    Les règles de mesure spéciales selon la SIA 380 ne sont pas prises en compte dans ce workflow !
+
+
+    **Résultat**
+
+    Un modèle IFC avec des surfaces de référence énergétique classifiées de manière univoque est disponible et constitue la base de calcul commune pour tous les corps de métier.'
+  it: '**Obiettivo**
+
+    La superficie di riferimento energetica (EBF) determinata dal progettista specializzato può essere ricostruita e plausibilizzata nel modello. La base è un''assegnazione uniforme dei locali che rende
+    trasparente, a livello interprogetto, quali locali sono considerati EBF — invece che ogni disciplina effettui una propria assegnazione.
+
+
+    **Vantaggio**
+
+    - Una base EBF uniforme su tutte le discipline riduce notevolmente lo sforzo di coordinamento
+
+    - La verifica di plausibilità della superficie di riferimento energetica determinata dal progettista specializzato diventa possibile
+
+    - Le contraddizioni tra pianificazione e certificato energetico vengono riconosciute in fase precoce
+
+
+    **Attuazione**
+
+    Assegnazione da parte dell''architetto in collaborazione con il progettista specializzato.
+
+    Un progettista specializzato incaricato (ad es. progettista energetico) definisce quali locali appartengono alla superficie di riferimento energetica e trasmette questi dati/schizzo all''architetto.
+
+    Le regole di misurazione speciali secondo la SIA 380 non sono considerate in questo workflow!
+
+
+    **Risultato**
+
+    Un modello IFC con superfici di riferimento energetica classificate in modo univoco è disponibile e costituisce la base di calcolo comune per tutte le discipline.'
+  en: ''
+workflow_group: BIM 3d full,BIM 3d full 10Mio+
+parent_workflow: armasuisse:workflow/raumflachen-und-volumina
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/architektur
+comment: ''

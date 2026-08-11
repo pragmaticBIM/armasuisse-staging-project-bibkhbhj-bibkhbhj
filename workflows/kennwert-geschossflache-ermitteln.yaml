@@ -1,0 +1,91 @@
+id: armasuisse:workflow/kennwert-geschossflache-ermitteln
+code: AWF-03-6
+name:
+  de: Kennwert Geschossfläche ermitteln
+  fr: Déterminer la surface d'étage
+  it: Determinare la superficie del piano
+  en: ''
+description:
+  de: '**Ziel**
+
+    Die Geschossfläche kann je Geschoss aus dem Modell ausgelesen und für projektübergreifende Kennwerte und Benchmarking verwendet werden.
+
+
+    **Nutzen für den Auftraggeber**
+
+    - Einheitliche Flächenkenngrössen über alle Projekte vergleichbar
+
+    - Plausibilitätsprüfung der Planung anhand von Kennwerten möglich
+
+    - Kein manuelles Ermitteln und Übertragen von Flächendaten
+
+
+    **Umsetzung im Projekt**
+
+    Direktauswertung aus IFC
+
+    Die Geschossfläche entspricht der Fläche der modellierten Geschossvolumen abzüglich der Luftraumflächen und wird direkt aus dem IFC-Modell ausgelesen.
+
+
+
+    **Ergebnis**
+
+    - IFC Modell mit Geschossflächen je Geschoss.'
+  fr: '**Objectif**
+
+    La surface de plancher de l’étage (SP) peut être extraite du modèle par étage et utilisée pour des indices interprojets et le benchmarking.
+
+
+    **Avantage pour le mandant**
+
+    - Des indicateurs de surface uniformes, comparables sur tous les projets
+
+    - Vérification de plausibilité de la planification à l’aide d’indices
+
+    - Pas de détermination ni de transfert manuel des données de surface
+
+
+    **Mise en œuvre dans le projet**
+
+    Évaluation directe à partir d’IFC
+
+    La surface de plancher de l’étage correspond à la surface des volumes d’étage modélisés, déduction faite des surfaces de vide aérien, et est extraite directement du modèle IFC.
+
+
+
+    **Résultat**
+
+    - Modèle IFC avec surfaces de plancher de l’étage par étage.'
+  it: '**Obiettivo**
+
+    La superficie del piano può essere estratta dal modello per ogni piano e utilizzata per indicatori interprogetto e benchmarking.
+
+
+    **Vantaggio per il mandante**
+
+    - Indicatori di superficie uniformi, comparabili su tutti i progetti
+
+    - Verifica di plausibilità della pianificazione sulla base di indicatori
+
+    - Nessuna determinazione e trasferimento manuale dei dati di superficie
+
+
+    **Attuazione nel progetto**
+
+    Valutazione diretta da IFC
+
+    La superficie del piano corrisponde alla superficie dei volumi dei piani modellati al netto delle superfici del vuoto e viene estratta direttamente dal modello IFC.
+
+
+
+    **Risultato**
+
+    - Modello IFC con superfici del piano per piano.'
+  en: ''
+workflow_group: BIM 3d full, BIM 3d full 10Mio+, BIM 3d light
+parent_workflow: armasuisse:workflow/mengen-und-kostenermittlung
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/architektur
+comment: ''

@@ -1,0 +1,21 @@
+id: armasuisse:domain/referenz-bauwerk
+sort_order: 2
+name:
+  de: Referenz Bauwerk
+  fr: Référence de l'ouvrage
+  it: Riferimento dell'opera
+  en: ''
+definition:
+  de: Das *Referenzmodell Bauwerk* orientiert sich am Referenzmodell Projektperimeter. Es definiert die gebäudespezifischen Einfügepunkte sowie alle Geschosse und Achsen. Es dient dazu, allen Beteiligten
+    die gleiche Grundlage zur Verfügung zu stellen.
+  fr: La maquette *Référence de l'ouvrage* est calquée sur la maquette Périmètre de référence du projet. Les points d’insertion propres à l'ouvrage ainsi que l’ensemble des étages et des axes sont définis.
+    Elle permet de mettre des bases identiques à la disposition de toutes les parties prenantes.
+  it: Il modello *Riferimento dell'operastruttura* è modellato sul modello Perimetro di riferimento del progetto. Vengono definiti i punti di inserimento specifici per la costruzione, oltre che tutti i
+    livelli e gli assi. Permette di fornire a tutte le parti coinvolte delle basi identiche.
+  en: ''
+file_name:
+  de: '{Auftrags-Nr Bauherr}_{Bauwerk ID}_{Phase}_RefBau_{Freitext}'
+  fr: '{Numéro projet}_{Code bâtiment}_{Phase}_RefBau_{Libre}'
+  it: '{Numero di incarico del committente}_{Codice opera di costruzione}_{Fase}_RefBau_{Testo libero}'
+  en: ''
+status: active

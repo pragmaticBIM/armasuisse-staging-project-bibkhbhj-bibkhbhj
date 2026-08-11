@@ -1,0 +1,103 @@
+id: armasuisse:workflow/zuordnung-der-bauteile-nach-ebkp-3-stellig
+sort_order: 26
+code: AWF-03-1
+name:
+  de: Zuordnung der Bauteile nach eBKP 3 Stellig
+  fr: Affectation des parties d'ouvrage selon eBKP à 3 chiffres
+  it: Assegnazione delle parti d'opera secondo eBKP a 3 cifre
+  en: ''
+description:
+  de: "**Klassifizierung Bauteile nach eBKP**\n\n**Ziel**\nBauteile werden nach eBKP klassifiziert und die Bezugsgrössen abgeleitet. Dies ermöglicht eine visuelle Prüfung der Zuordnung sowie eine Plausibilisierung\
+    \ der Mengen als Grundlage für Kostenschätzung und Benchmarking.\n\n**Nutzen für den Auftraggeber**\n- Plausibilisierung der Mengen direkt im Modell — Fehler in der Klassifizierung werden visuell sichtbar\n\
+    \ - Einheitliche Mengengrundlage für projektübergreifendes Benchmarking\n- Bezugsgrössen stehen strukturiert und ohne manuelle Nachbearbeitung zur Verfügung\n\n**Umsetzung im Projekt**\nBauteile werden\
+    \ den entsprechenden eBKH Positionen zugewiesen und die Bezugsgrössen abgeleitet.\n\nDie Umsetzung erfolgt in einer der folgenden Varianten:\n\n- *Variante A — Zuweisung via IFC-Klassifikationssystem:*\
+    \ Die eBKP-H Klassifikation wird über das IFC-native Klassifikationssystem «eBKP» direkt am Bauteil hinterlegt.\n- *Variante B — Zuweisung via Property:* Die eBKP-H Klassifikation wird manuell über\
+    \ ein dediziertes Property am Bauteil erfasst.\n- *Variante C — Automatisierte Zuweisung (in Entwicklung):* Die Klassifikation wird automatisiert aus den Grundattributen der Bauteile berechnet, um eine\
+    \ einheitliche und reproduzierbare Zuordnung zu gewährleisten.\n\n**Ergebnis**\n- IFC-Modell mit eBKP-H klassifizierten Bauteilen\n- Excel-Auswertung mit den abgeleiteten Bezugsmengen pro eBKP-H Position"
+  fr: '**Classification des parties d''ouvrage selon eBKP**
+
+
+    **Objectif**
+
+    Les parties d''ouvrage sont classifiées selon eBKP et les grandeurs de référence sont dérivées. Cela permet un contrôle visuel de l''affectation ainsi qu''une vérification de plausibilité des quantités
+    comme base pour l''estimation des coûts et le benchmarking.
+
+
+    **Avantage pour le mandant**
+
+    - Vérification de plausibilité des quantités directement dans le modèle — les erreurs de classification deviennent visibles
+
+    - Base de quantités uniforme pour le benchmarking interprojets
+
+    - Les grandeurs de référence sont disponibles de manière structurée sans post-traitement manuel
+
+
+    **Mise en œuvre dans le projet**
+
+    Les parties d''ouvrage sont affectées aux positions eBKP correspondantes et les grandeurs de référence sont dérivées.
+
+
+    La mise en œuvre s''effectue selon l''une des variantes suivantes :
+
+
+    - *Variante A — Affectation via système de classification IFC :* La classification eBKP-H est enregistrée directement sur la partie d''ouvrage via le système de classification IFC natif « eBKP ».
+
+    - *Variante B — Affectation via propriété :* La classification eBKP-H est saisie manuellement via une propriété dédiée sur la partie d''ouvrage.
+
+    - *Variante C — Affectation automatisée (en développement) :* La classification est calculée automatiquement à partir des attributs de base des parties d''ouvrage afin de garantir une affectation uniforme
+    et reproductible.
+
+
+    **Résultat**
+
+    - Modèle IFC avec parties d''ouvrage classifiées selon eBKP-H
+
+    - Évaluation Excel avec les quantités de référence dérivées par position eBKP-H'
+  it: '**Classificazione delle parti d''opera secondo eBKP**
+
+
+    **Obiettivo**
+
+    Le parti d''opera vengono classificate secondo eBKP e le grandezze di riferimento vengono derivate. Ciò consente un controllo visivo dell''assegnazione nonché una verifica di plausibilità delle quantità
+    come base per la stima dei costi e il benchmarking.
+
+
+    **Vantaggio per il mandante**
+
+    - Verifica di plausibilità delle quantità direttamente nel modello — gli errori di classificazione diventano visivamente evidenti
+
+    - Base quantitativa uniforme per il benchmarking interprogetto
+
+    - Le grandezze di riferimento sono disponibili in forma strutturata senza post-elaborazione manuale
+
+
+    **Attuazione nel progetto**
+
+    Le parti d''opera vengono assegnate alle posizioni eBKP corrispondenti e le grandezze di riferimento vengono derivate.
+
+
+    L''attuazione avviene in una delle seguenti varianti:
+
+
+    - *Variante A — Assegnazione tramite sistema di classificazione IFC :* La classificazione eBKP-H viene registrata direttamente sulla parte d''opera tramite il sistema di classificazione IFC nativo «
+    eBKP ».
+
+    - *Variante B — Assegnazione tramite proprietà :* La classificazione eBKP-H viene registrata manualmente tramite una proprietà dedicata sulla parte d''opera.
+
+    - *Variante C — Assegnazione automatizzata (in sviluppo) :* La classificazione viene calcolata automaticamente dagli attributi di base delle parti d''opera per garantire un''assegnazione uniforme e
+    riproducibile.
+
+
+    **Risultato**
+
+    - Modello IFC con parti d''opera classificate secondo eBKP-H
+
+    - Valutazione Excel con le quantità di riferimento derivate per posizione eBKP-H'
+  en: ''
+workflow_group: null
+parent_workflow: armasuisse:workflow/mengen-und-kostenermittlung
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/architektur
+comment: ''

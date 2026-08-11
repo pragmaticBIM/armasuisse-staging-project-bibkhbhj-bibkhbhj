@@ -1,0 +1,22 @@
+id: armasuisse:value/gta-fire-alarm-system
+name:
+  de: GTA_Fire_alarm_system
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - GTA_Fire_alarm_system
+  fr:
+  - GTA_Fire_alarm_system
+  it:
+  - GTA_Fire_alarm_system
+  en: []

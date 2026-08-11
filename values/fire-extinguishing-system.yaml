@@ -1,0 +1,40 @@
+id: armasuisse:value/fire-extinguishing-system
+name:
+  de: FireExtinguishingSystem
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Löschmitteltyp der Löschanlage gemäss CHBB_SpaceFireSafetyRequirements.FireExtinguishingSystem
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - NONE
+  - WATER
+  - WATERFOG
+  - FOAM
+  - CO2
+  - NITROGEN
+  - OTHER
+  fr:
+  - NONE
+  - WATER
+  - WATERFOG
+  - FOAM
+  - CO2
+  - NITROGEN
+  - OTHER
+  it:
+  - NONE
+  - WATER
+  - WATERFOG
+  - FOAM
+  - CO2
+  - NITROGEN
+  - OTHER
+  en: []

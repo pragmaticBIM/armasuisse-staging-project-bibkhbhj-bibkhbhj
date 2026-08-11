@@ -1,0 +1,22 @@
+id: armasuisse:domain/nachweismodell-luftung-klima
+sort_order: 6
+name:
+  de: Nachweismodell Lüftung-Klima
+  fr: Maquette de vérification Ventilation et Climatisation
+  it: Modello di verifica Ventilazione e Condizionamento dell'aria
+  en: ''
+definition:
+  de: Das *Nachweismodell Lüftung-Klima* ist ein Teil des Nachweismodells Beschaffung. Es enthält die Informationsanforderungen, die im Rahmen der Angebotsverfahren vom anbietenden Unternehmen erfüllt werden
+    müssen. Ob das Nachweismodell als Eignung- oder Zuschlagskriterium eingesetzt wird, und welcher Erfüllungsgrad gefordert ist, ist den Ausschreibungsunterlagen zu entnehmen.
+  fr: Le *modèle de preuve ventilation-climatisation* fait partie du modèle de preuve approvisionnement. Il contient les exigences d'information que l'entreprise soumissionnaire doit remplir dans le cadre
+    de la procédure d'appel d'offres. Si le modèle de preuve est utilisé comme critère d'admissibilité ou d'attribution, et quel degré de conformité est requis, doit être déterminé à partir des documents
+    de la procédure d'appel d'offres.
+  it: Il *modello di prova ventilazione-climatizzazione* è parte del modello di prova approvvigionamento. Contiene i requisiti informativi che l'azienda offerente deve soddisfare nell'ambito della procedura
+    di gara. Se il modello di prova viene utilizzato come criterio di idoneità o di aggiudicazione, e quale grado di conformità è richiesto, va desunto dai documenti di gara.
+  en: ''
+file_name:
+  de: NWM_TGA_LK{Unternehmen}
+  fr: NWM_TGA_LK_{Entreprise}
+  it: MODELLO PROVA_TGA_LK_{Impresa}
+  en: ''
+status: active

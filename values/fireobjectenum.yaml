@@ -1,0 +1,37 @@
+id: armasuisse:value/fireobjectenum
+name:
+  de: FireObjectEnum
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - DeploymentArea
+  - MobileFan
+  - KeyDepository
+  - FireFightingLift
+  - FlashLight
+  - FireHydrant
+  fr:
+  - DeploymentArea
+  - MobileFan
+  - KeyDepository
+  - FireFightingLift
+  - FlashLight
+  - FireHydrant
+  it:
+  - DeploymentArea
+  - MobileFan
+  - KeyDepository
+  - FireFightingLift
+  - FlashLight
+  - FireHydrant
+  en: []

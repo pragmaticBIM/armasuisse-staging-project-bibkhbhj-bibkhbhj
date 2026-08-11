@@ -1,0 +1,262 @@
+id: armasuisse:element/projekt
+sort_order: 1
+status: active
+name:
+  de: Projekt
+  fr: Projet
+  it: Progetto
+  en: ''
+needed_in_domain:
+- armasuisse:domain/architektur
+- armasuisse:domain/referenz-bauwerk
+- armasuisse:domain/referenz-perimeter
+- armasuisse:domain/einsatzplan-feuerwehr
+- armasuisse:domain/gebaudetechnik-elektro
+- armasuisse:domain/gebaudetechnik-hlk
+- armasuisse:domain/gebaudetechnik-sanitar
+- armasuisse:domain/gebaudetechnik-sonstiges
+definition:
+  de: 'Das Projekt dient als logische Gliederungsebene und muss in jeder IFC Datei gepflegt sein, sodass die Dateien eindeutig den Projekten zugeordnet werden können.
+
+
+    Die Attributswerte werden durch den Bauherr im Modell "Referenz Perimeter" geliefert.'
+  fr: "Le projet sert d’articulation logique et doit être mis à jour dans chaque fichier IFC de telle sorte que les fichiers puissent être attribués sans équivoque aux projets. \n\nLes valeurs d’attribut\
+    \ sont fournies par l’auteur de la commande dans le modèle de périmètre de projet et doivent être reprises par tous les participants du projet."
+  it: "Il progetto funge da livello di suddivisione logica e deve essere indicato in ogni file IFC in maniera che i file stessi possano essere associati in modo univoco ai progetti.  \n\nI valori degli\
+    \ attributi vengono forniti dal committente nel modello di \"riferimento Perimetro\"."
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcProject
+entity_ifc4_3: ''
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcProject
+attributes:
+- name: Name
+  pset: null
+  definition:
+    de: Auftrags-Nr Bauherr, z.B. APB-000311
+    fr: N° mandat du maître d’ouvrage, p. ex. APB-000311
+    it: N. ordine committente ad es. APB-000311
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/bibkhbhj
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '11'
+  - '21'
+  - '22'
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/qualitatssicherung-energiebezugsflache
+  - armasuisse:workflow/qualitatssicherung-nutzlasten-tragwerkskonzept
+  - armasuisse:workflow/szenarienentwicklung-stadtebauliche-machbarkeit
+  - armasuisse:workflow/szenarienentwicklung-areal-und-bauwerksversorgung
+  - armasuisse:workflow/darstellung-sicherheitsrelevanter-konzepte-und-bauteile
+  - armasuisse:workflow/etappierungskonzept
+  - armasuisse:workflow/bestandsaufnahme
+  - armasuisse:workflow/darstellung-brandschutzkonzept-in-modell
+  - armasuisse:workflow/darstellung-sicherheitszonen-in-modell
+  - armasuisse:workflow/darstellung-sicherheitsklassifizierungen-der-fassade-nach-comsec-im-modell
+  - armasuisse:workflow/erstellung-varianten-im-modell-zur-entscheidungsfindung-armasuisse
+  - armasuisse:workflow/visualisierung-raumbeziehungen
+  - armasuisse:workflow/visualisierung-und-nachweis-kritischer-betriebsablaufe
+  - armasuisse:workflow/sperrzonen-modell-tragwerk
+  - armasuisse:workflow/liefern-von-grundlagen-fur-lebenszykluskostenberechnungen-im-bauprojekt
+  - armasuisse:workflow/flachen-und-volumen-fur-bauwerkskennzahlen
+  - armasuisse:workflow/klarung-vertraglicher-schnittstellen
+  - armasuisse:workflow/simulation-kritischer-bauablaufe-in-modell
+  - armasuisse:workflow/modellbasierte-bestellungsanderung
+  - armasuisse:workflow/angabe-planer-und-unternehmer-pro-bauteil
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-gebaudetechnik
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-3d-architektur
+  - armasuisse:workflow/awf-08-d-modellbasierte-informationen-auf-bauteilebene-3d-gebaudetechnik
+  - armasuisse:workflow/awf-04-a-issuemanagement
+  - armasuisse:workflow/planungskoordination
+  - armasuisse:workflow/bim2lcc-lebenszykluskosten
+  - armasuisse:workflow/zuordnung-der-bauteile-nach-ebkp-3-stellig
+  - armasuisse:workflow/modellbasierte-informationen-auf-systemebene-gebaudetechnik
+  - armasuisse:workflow/lia-gebaude
+  - armasuisse:workflow/lia-ngf-erfassungsliste
+  - armasuisse:workflow/lia-grundstuck
+  - armasuisse:workflow/ermitteln-von-geschossvolumen
+  - armasuisse:workflow/flachenauswertung-nach-sia416-dn265
+  - armasuisse:workflow/kennwert-geschossflache-ermitteln
+  - armasuisse:workflow/lia-areal
+  - armasuisse:workflow/ubernahme-von-modelldaten-in-gis-fur-werkleitungen
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  - armasuisse:workflow/visualisierung-sicherheitstechnik-im-modell
+  - armasuisse:workflow/erstellen-referenz-bauwerk-modell
+  - armasuisse:workflow/erstellen-referenz-perimeter-modell
+  - armasuisse:workflow/qualitatssicherung-qs-bodenbelage
+  - armasuisse:workflow/soll-ist-vergleich-raumflachen
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: Description
+  pset: null
+  definition:
+    de: Auftragsname des Bauherren z.B. "Burgdorf, Ausbau Aussenstelle"
+    fr: Nom du mandat du maître d’ouvrage, p. ex. "Berthoud, extension site externe"
+    it: Nome dell'ordine del committente, ad es. "Burgdorf, ampliamento sede esterna"
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-demoareal
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '11'
+  - '21'
+  - '22'
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/qualitatssicherung-energiebezugsflache
+  - armasuisse:workflow/qualitatssicherung-nutzlasten-tragwerkskonzept
+  - armasuisse:workflow/szenarienentwicklung-stadtebauliche-machbarkeit
+  - armasuisse:workflow/szenarienentwicklung-areal-und-bauwerksversorgung
+  - armasuisse:workflow/darstellung-sicherheitsrelevanter-konzepte-und-bauteile
+  - armasuisse:workflow/etappierungskonzept
+  - armasuisse:workflow/bestandsaufnahme
+  - armasuisse:workflow/darstellung-brandschutzkonzept-in-modell
+  - armasuisse:workflow/darstellung-sicherheitszonen-in-modell
+  - armasuisse:workflow/erstellung-varianten-im-modell-zur-entscheidungsfindung-armasuisse
+  - armasuisse:workflow/visualisierung-raumbeziehungen
+  - armasuisse:workflow/visualisierung-und-nachweis-kritischer-betriebsablaufe
+  - armasuisse:workflow/sperrzonen-modell-tragwerk
+  - armasuisse:workflow/liefern-von-grundlagen-fur-lebenszykluskostenberechnungen-im-bauprojekt
+  - armasuisse:workflow/flachen-und-volumen-fur-bauwerkskennzahlen
+  - armasuisse:workflow/klarung-vertraglicher-schnittstellen
+  - armasuisse:workflow/simulation-kritischer-bauablaufe-in-modell
+  - armasuisse:workflow/modellbasierte-bestellungsanderung
+  - armasuisse:workflow/angabe-planer-und-unternehmer-pro-bauteil
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-gebaudetechnik
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-3d-architektur
+  - armasuisse:workflow/awf-08-d-modellbasierte-informationen-auf-bauteilebene-3d-gebaudetechnik
+  - armasuisse:workflow/awf-04-a-issuemanagement
+  - armasuisse:workflow/planungskoordination
+  - armasuisse:workflow/bim2lcc-lebenszykluskosten
+  - armasuisse:workflow/ermitteln-von-geschossvolumen
+  - armasuisse:workflow/flachenauswertung-nach-sia416-dn265
+  - armasuisse:workflow/darstellung-sicherheitsklassifizierungen-der-fassade-nach-comsec-im-modell
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  - armasuisse:workflow/visualisierung-sicherheitstechnik-im-modell
+  - armasuisse:workflow/kennwert-geschossflache-ermitteln
+  - armasuisse:workflow/zuordnung-der-bauteile-nach-ebkp-3-stellig
+  - armasuisse:workflow/lia-gebaude
+  - armasuisse:workflow/lia-grundstuck
+  - armasuisse:workflow/lia-ngf-erfassungsliste
+  - armasuisse:workflow/lia-areal
+  - armasuisse:workflow/modellbasierte-informationen-auf-systemebene-gebaudetechnik
+  - armasuisse:workflow/erstellen-referenz-perimeter-modell
+  - armasuisse:workflow/qualitatssicherung-qs-bodenbelage
+  - armasuisse:workflow/soll-ist-vergleich-raumflachen
+  is_applicability: false
+  status: active
+  sort_order: 2
+- name: Phase
+  pset: null
+  definition:
+    de: 'Nummer der Teilphase nach SIA 112.
+
+      Zum Beispiel: "21"'
+    fr: 'Numéro de la phase partielle selon SIA 112.
+
+      P. ex.: "21"'
+    it: "Numero della sottofase secondo SIA 112. \nAd esempio \"21\""
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/sia-projektphasen
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '11'
+  - '21'
+  - '22'
+  - '31'
+  - '32'
+  - '33'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  - '41'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/qualitatssicherung-energiebezugsflache
+  - armasuisse:workflow/qualitatssicherung-nutzlasten-tragwerkskonzept
+  - armasuisse:workflow/szenarienentwicklung-stadtebauliche-machbarkeit
+  - armasuisse:workflow/szenarienentwicklung-areal-und-bauwerksversorgung
+  - armasuisse:workflow/darstellung-sicherheitsrelevanter-konzepte-und-bauteile
+  - armasuisse:workflow/etappierungskonzept
+  - armasuisse:workflow/bestandsaufnahme
+  - armasuisse:workflow/darstellung-brandschutzkonzept-in-modell
+  - armasuisse:workflow/darstellung-sicherheitszonen-in-modell
+  - armasuisse:workflow/erstellung-varianten-im-modell-zur-entscheidungsfindung-armasuisse
+  - armasuisse:workflow/visualisierung-raumbeziehungen
+  - armasuisse:workflow/visualisierung-und-nachweis-kritischer-betriebsablaufe
+  - armasuisse:workflow/sperrzonen-modell-tragwerk
+  - armasuisse:workflow/liefern-von-grundlagen-fur-lebenszykluskostenberechnungen-im-bauprojekt
+  - armasuisse:workflow/flachen-und-volumen-fur-bauwerkskennzahlen
+  - armasuisse:workflow/klarung-vertraglicher-schnittstellen
+  - armasuisse:workflow/simulation-kritischer-bauablaufe-in-modell
+  - armasuisse:workflow/modellbasierte-bestellungsanderung
+  - armasuisse:workflow/angabe-planer-und-unternehmer-pro-bauteil
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-gebaudetechnik
+  - armasuisse:workflow/modellbasierte-informationen-auf-bauteilebene-3d-architektur
+  - armasuisse:workflow/awf-08-d-modellbasierte-informationen-auf-bauteilebene-3d-gebaudetechnik
+  - armasuisse:workflow/awf-04-a-issuemanagement
+  - armasuisse:workflow/planungskoordination
+  - armasuisse:workflow/bim2lcc-lebenszykluskosten
+  - armasuisse:workflow/ermitteln-von-geschossvolumen
+  - armasuisse:workflow/flachenauswertung-nach-sia416-dn265
+  - armasuisse:workflow/darstellung-sicherheitsklassifizierungen-der-fassade-nach-comsec-im-modell
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  - armasuisse:workflow/visualisierung-sicherheitstechnik-im-modell
+  - armasuisse:workflow/kennwert-geschossflache-ermitteln
+  - armasuisse:workflow/zuordnung-der-bauteile-nach-ebkp-3-stellig
+  - armasuisse:workflow/lia-gebaude
+  - armasuisse:workflow/lia-grundstuck
+  - armasuisse:workflow/lia-ngf-erfassungsliste
+  - armasuisse:workflow/lia-areal
+  - armasuisse:workflow/modellbasierte-informationen-auf-systemebene-gebaudetechnik
+  - armasuisse:workflow/erstellen-referenz-bauwerk-modell
+  - armasuisse:workflow/qualitatssicherung-qs-bodenbelage
+  - armasuisse:workflow/soll-ist-vergleich-raumflachen
+  is_applicability: false
+  status: active
+  sort_order: 3

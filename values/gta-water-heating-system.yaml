@@ -1,0 +1,22 @@
+id: armasuisse:value/gta-water-heating-system
+name:
+  de: GTA_Water_heating_system
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - GTA_Water_heating_system
+  fr:
+  - GTA_Water_heating_system
+  it:
+  - GTA_Water_heating_system
+  en: []

@@ -1,0 +1,111 @@
+id: armasuisse:element/feuerwehr-zugang
+sort_order: 351
+status: wip
+name:
+  de: Feuerwehr Zugang
+  fr: Accès des pompiers
+  it: Accesso dei pompieri
+  en: ''
+needed_in_domain:
+- armasuisse:domain/einsatzplan-feuerwehr
+definition:
+  de: 'Das Feuerwehrzugangssymbol kennzeichent wo die folgenden Feuerwehrzuänge sind:
+
+
+    - MainAccess ... Feuerwehrhauptzugang
+
+    - AdditionalAccess ... Feuerwehrnebenzugang
+
+    - SprinklerCentralAccess ... Zugang Sprinklerraum
+
+
+    **Modellierungshinweis:**
+
+    Als Pfeil modeliert und im Bereich der Eingänge platziert.'
+  fr: 'Le symbole d''accès des pompiers indique l''emplacement des accès suivants pour les pompiers :
+
+
+    - MainAccess ... Accès principal des pompiers
+
+    - AdditionalAccess ... Accès secondaire des pompiers
+
+    - SprinklerCentralAccess ... Accès à la salle des sprinklers
+
+
+    **Remarque de modélisation :**
+
+    Modélisé sous forme de flèche et placé dans la zone des entrées.'
+  it: 'Il simbolo di accesso dei vigili del fuoco indica dove si trovano i seguenti accessi per i vigili del fuoco:
+
+
+    - MainAccess ... Accesso principale dei vigili del fuoco
+
+    - AdditionalAccess ... Accesso secondario dei vigili del fuoco
+
+    - SprinklerCentralAccess ... Accesso alla stanza degli sprinkler
+
+
+    **Nota di modellazione:**
+
+    Modellato come freccia e posizionato nell''area degli ingressi.'
+  en: ''
+entity_ifc2x3: ''
+entity_ifc4: IfcBuildingElementProxy
+entity_ifc4_3: ''
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcBuildingElementProxy
+attributes:
+- name: FireBrigadeAccessType
+  sort_order: 3
+  pset: CHIBB_FireBrigadeRequirements
+  definition:
+    de: 'Bestimmt, um welchen Feuerwehrzugang es sich beim modellierten Symbol handelt.
+
+
+      - MainAccess: Feuerwehrhauptzugang
+
+      - AdditionalAccess: Feuerwehrnebenzugang
+
+      - SprinklerCentralAccess: Zugang Sprinklerraum'
+    fr: 'Détermine quel accès pompier est représenté par le symbole modélisé.
+
+
+      - MainAccess: Accès principal pompier
+
+      - AdditionalAccess: Accès secondaire pompier
+
+      - SprinklerCentralAccess: Accès local sprinkler'
+    it: 'Determina quale accesso vigili del fuoco è rappresentato dal simbolo modellato.
+
+
+      - MainAccess: Accesso principale vigili del fuoco
+
+      - AdditionalAccess: Accesso secondario vigili del fuoco
+
+      - SprinklerCentralAccess: Accesso locale sprinkler'
+    en: ''
+  datatype: IfcText
+  allowed_values: armasuisse:value/fireentrytypeenum
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active

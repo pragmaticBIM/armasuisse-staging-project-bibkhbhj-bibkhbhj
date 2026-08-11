@@ -1,0 +1,22 @@
+id: armasuisse:value/gta-hydroelectric-power-plants
+name:
+  de: GTA_Hydroelectric_power_plants
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - GTA_Hydroelectric_power_plants
+  fr:
+  - GTA_Hydroelectric_power_plants
+  it:
+  - GTA_Hydroelectric_power_plants
+  en: []

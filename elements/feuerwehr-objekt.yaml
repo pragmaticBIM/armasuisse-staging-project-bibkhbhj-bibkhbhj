@@ -1,0 +1,210 @@
+id: armasuisse:element/feuerwehr-objekt
+sort_order: 15
+status: active
+name:
+  de: Feuerwehr Objekt
+  fr: Objet pompier
+  it: Oggetto vigili del fuoco
+  en: Fire department object
+needed_in_domain:
+- armasuisse:domain/einsatzplan-feuerwehr
+definition:
+  de: 'Das Feuerwehr-Objekt ist ein Platzhaltersymbol, das die räumliche Positionierung der folgenden brandschutztechnischen Elemente kennzeichnet:
+
+
+    - DeploymentArea: Aufstellbereich
+
+    - MobileFan: Mobiler Lüfter
+
+    - KeyDepository: Schlüsselbox
+
+    - FireFightingLift: Feuerwehraufzug
+
+    - FlashLight: Taschenlampe
+
+    - FireHydrant: Feuerhydrant
+
+
+
+    **Modellierungshinweis:**
+
+    Das Feuerwehr-Objekt wird als einfacher Kubus (Quader) modelliert und in dem Bereich platziert, in dem sich das jeweilige reale Element befindet.'
+  fr: 'L''objet pompier est un symbole de remplacement qui indique le positionnement spatial des éléments de protection incendie suivants :
+
+
+    - DeploymentArea: Aire de déploiement
+
+    - MobileFan: Ventilateur mobile
+
+    - KeyDepository: Boîte à clés
+
+    - FireFightingLift: Ascenseur pompier
+
+    - FlashLight: Lampe de poche
+
+    - FireHydrant: Bouche d''incendie
+
+
+
+    **Note pour la modélisation :**
+
+    L''objet pompier est modélisé comme un cube simple (parallélépipède) et placé dans la zone où se trouve l''élément réel correspondant.'
+  it: 'L''oggetto vigili del fuoco è un simbolo segnaposto che indica il posizionamento spaziale dei seguenti elementi di protezione antincendio:
+
+
+    - DeploymentArea: Area di schieramento
+
+    - MobileFan: Ventilatore mobile
+
+    - KeyDepository: Cassetta delle chiavi
+
+    - FireFightingLift: Ascensore per vigili del fuoco
+
+    - FlashLight: Torcia
+
+    - FireHydrant: Idrante
+
+
+
+    **Indicazione per la modellazione:**
+
+    L''oggetto vigili del fuoco è modellato come un cubo semplice (parallelepipedo) e posizionato nell''area in cui si trova l''elemento reale corrispondente.'
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcBuildingElementProxy
+entity_ifc4_3: ''
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcBuildingElementProxy AND ObjectType=FEUERWEHROBJEKT
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: Der Wert PredefinedType muss auf USERDEFINED gesetzt werden, damit der individuelle Objekttyp über das Attribut ObjectType ausgelesen werden kann.
+    fr: La valeur PredefinedType doit être définie sur USERDEFINED afin que le type d'objet individuel puisse être lu via l'attribut ObjectType.
+    it: Il valore PredefinedType deve essere impostato su USERDEFINED affinché il tipo di oggetto individuale possa essere letto tramite l'attributo ObjectType.
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-userdefined
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: ObjectType
+  pset: null
+  definition:
+    de: Definiert, dass es sich bei dem modellierten Element um ein FeuerwehrObjekt handelt.
+    fr: Définit que l'élément modélisé est un objet pompier.
+    it: Definisce che l'elemento modellato è un oggetto vigili del fuoco.
+    en: ''
+  datatype: null
+  allowed_values: armasuisse:value/manual-feuerwehrobjekt
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '33'
+  - '51'
+  - '52'
+  - '41'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: true
+  status: active
+  sort_order: 2
+- name: FireObjectType
+  sort_order: 3
+  pset: CHIBB_FireBrigadeRequirements
+  definition:
+    de: 'Bestimmt, um welches brandschutztechnische Element es sich beim modellierten Feuerwehr-Objekt handelt.
+
+
+      - DeploymentArea: Aufstellbereich
+
+      - MobileFan: Mobiler Lüfter
+
+      - KeyDepository: Schlüsselbox
+
+      - FireFightingLift: Feuerwehraufzug
+
+      - FlashLight: Taschenlampe
+
+      - FireHydrant: Feuerhydrant'
+    fr: 'Détermine quel élément de protection incendie est représenté par l''objet pompier modélisé.
+
+
+      - DeploymentArea: Aire de déploiement
+
+      - MobileFan: Ventilateur mobile
+
+      - KeyDepository: Boîte à clés
+
+      - FireFightingLift: Ascenseur pompier
+
+      - FlashLight: Lampe de poche
+
+      - FireHydrant: Bouche d''incendie'
+    it: 'Determina quale elemento di protezione antincendio è rappresentato dall''oggetto vigili del fuoco modellato.
+
+
+      - DeploymentArea: Area di schieramento
+
+      - MobileFan: Ventilatore mobile
+
+      - KeyDepository: Cassetta delle chiavi
+
+      - FireFightingLift: Ascensore per vigili del fuoco
+
+      - FlashLight: Torcia
+
+      - FireHydrant: Idrante'
+    en: ''
+  datatype: IfcText
+  allowed_values: armasuisse:value/fireobjectenum
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '31'
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  - '62'
+  ifc_versions:
+  - ifc4
+  needed_for_workflows:
+  - armasuisse:workflow/einsatzplan-feuerwehr-am-modell
+  is_applicability: false
+  status: active

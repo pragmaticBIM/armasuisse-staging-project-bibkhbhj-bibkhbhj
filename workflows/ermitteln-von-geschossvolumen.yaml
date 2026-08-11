@@ -1,0 +1,91 @@
+id: armasuisse:workflow/ermitteln-von-geschossvolumen
+code: AWF-03-8
+name:
+  de: Kennwert Geschossvolumen ermitteln
+  fr: Déterminer l'indice du volume d'étage
+  it: Determinare l'indice del volume del piano
+  en: ''
+description:
+  de: '**Ziel**
+
+    Das Geschossvolumen kann je Geschoss aus dem Modell ausgelesen und für projektübergreifende Kennwerte und Benchmarking verwendet werden.
+
+
+    **Nutzen für den Auftraggeber**
+
+    - Einheitliche Volumenkenngrössen über alle Projekte vergleichbar
+
+    - Plausibilitätsprüfung der Planung anhand von Kennwerten möglich
+
+    - Kein manuelles Ermitteln und Übertragen von Volumendaten
+
+
+    **Umsetzung im Projekt**
+
+    Direktauswertung aus IFC
+
+    Die Geschossvolumen werden als modellierte Volumenkörper im IFC bereitgestellt und können direkt aus dem Modell ausgelesen werden.
+
+
+
+    **Ergebnis**
+
+    - IFC Modell mit Geschossvolumen je Geschoss.'
+  fr: '**Objectif**
+
+    Le volume de l’étage peut être extrait du modèle par étage et utilisé pour des indices interprojets et le benchmarking.
+
+
+    **Avantage pour le mandant**
+
+    - Des indicateurs de volume uniformes, comparables sur tous les projets
+
+    - Vérification de plausibilité de la planification à l’aide d’indices
+
+    - Pas de détermination ni de transfert manuel des données de volume
+
+
+    **Mise en œuvre dans le projet**
+
+    Évaluation directe à partir d’IFC
+
+    Les volumes d’étage sont fournis sous forme de corps volumiques modélisés dans l’IFC et peuvent être extraits directement du modèle.
+
+
+
+    **Résultat**
+
+    - Modèle IFC avec volume d’étage par étage.'
+  it: '**Obiettivo**
+
+    Il volume del piano può essere estratto dal modello per ogni piano e utilizzato per indicatori interprogetto e benchmarking.
+
+
+    **Vantaggio per il mandante**
+
+    - Indicatori di volume uniformi, comparabili su tutti i progetti
+
+    - Verifica di plausibilità della pianificazione sulla base di indicatori
+
+    - Nessuna determinazione e trasferimento manuale dei dati di volume
+
+
+    **Attuazione nel progetto**
+
+    Valutazione diretta da IFC
+
+    I volumi dei piani sono forniti come corpi volumetrici modellati in IFC e possono essere estratti direttamente dal modello.
+
+
+
+    **Risultato**
+
+    - Modello IFC con volume del piano per piano.'
+  en: ''
+workflow_group: BIM 3d full, BIM 3d full 10Mio+, BIM 3d light
+parent_workflow: armasuisse:workflow/mengen-und-kostenermittlung
+picture_link: null
+status: active
+needed_in_domain:
+- armasuisse:domain/architektur
+comment: ''

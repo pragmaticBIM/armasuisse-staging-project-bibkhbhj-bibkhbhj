@@ -1,0 +1,22 @@
+id: armasuisse:domain/nachweismodell-elektro
+sort_order: 7
+name:
+  de: Nachweismodell Elektro
+  fr: Maquette de vérification Electricité
+  it: Modello di verifica Elettricità
+  en: ''
+definition:
+  de: Das *Nachweismodell Elektro* ist ein Teil des Nachweismodells Beschaffung. Es enthält die Informationsanforderungen, die im Rahmen der Angebotsverfahren vom anbietenden Unternehmen erfüllt werden
+    müssen. Ob das Nachweismodell als Eignung- oder Zuschlagskriterium eingesetzt wird, und welcher Erfüllungsgrad gefordert ist, ist den Ausschreibungsunterlagen zu entnehmen.
+  fr: Le *modèle de preuve Électro* fait partie du modèle de preuve Approvisionnement. Il contient les exigences d'information que l'entreprise soumissionnaire doit remplir dans le cadre de la procédure
+    d'appel d'offres. Si le modèle de preuve est utilisé comme critère d'admissibilité ou d'attribution, et quel degré de conformité est requis, est à déterminer dans les documents de la procédure d'appel
+    d'offres.
+  it: Il *modello di prova Elettro* è parte del modello di prova Approvvigionamento. Contiene i requisiti informativi che l'azienda offerente deve soddisfare nell'ambito della procedura di gara. Se il modello
+    di prova viene utilizzato come criterio di idoneità o di aggiudicazione, e quale grado di conformità è richiesto, va desunto dai documenti di gara.
+  en: ''
+file_name:
+  de: NWM_TGA_E_{Unternehmen}
+  fr: NWM_TGA_E_{Entreprise}
+  it: MODELLO PROVA_TGA_E_{Impresa}
+  en: ''
+status: active
