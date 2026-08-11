@@ -13,3 +13,10 @@ description:
   en: bibkhbhj
 master_slug: master-standard
 master_version: v1.0.1
+goal_level_selections:
+  armasuisse:project-goal/kosten-budgetsensitivitaet: armasuisse:project-goal-level/kosten-mittel
+  armasuisse:project-goal/ausbaustandard: armasuisse:project-goal-level/ausbau-gehoben
+  armasuisse:project-goal/nachhaltigkeit: armasuisse:project-goal-level/nachhaltigkeit-mittel
+  armasuisse:project-goal/sicherheitsanforderungen: armasuisse:project-goal-level/sicherheit-erhoeht
+  armasuisse:project-goal/betriebs-uebergabefokus: armasuisse:project-goal-level/betrieb-gering
+  armasuisse:project-goal/terminkritikalitaet: armasuisse:project-goal-level/termin-standard
